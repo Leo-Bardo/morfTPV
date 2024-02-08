@@ -1,0 +1,41 @@
+.miClaseIframe {
+  width: 100%;
+  height: 85px;
+  border: none;
+}
+.header {
+    background-color: #fff;
+    color: #000;/*color de texto*/
+    padding: 10px;/* Organizar para que quede centrado el encabezado en general*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  border: solid 3px;
+  width: 180px;
+  height: auto;
+}
+.titulo h1{
+    border: solid 5px green;
+    font-size: 20px;
+}
+.clock {
+    font-size: 18px;
+    background-color: #04aa6d;/*Cambiar color para fondo de reloj*/
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Iframe */
+.container {
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+}
+h1 {
+    font-size: 26px;
+}

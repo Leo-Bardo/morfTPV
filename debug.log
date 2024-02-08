@@ -1,0 +1,1579 @@
+- 11:41:18.172 INFO: --------------------------------------------------------
+- 11:41:18.172 INFO: Started application
+- 11:41:18.172 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:41:18.172 INFO: Log level = DEBUG4
+- 11:41:18.172 INFO: Starting Mongoose 3.9c web server
+- 11:41:18.172 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:41:18.172 INFO: Index files: index.html,index.php
+- 11:41:18.172 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:41:18.172 INFO: CGI pattern: **.php$
+- 11:41:18.172 INFO: Hide files patterns: 
+- 11:41:18.172 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:41:18.188 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:41:18.203 INFO: Web server url: http://127.0.0.1:51454/
+- 11:41:18.203 INFO: remote_debugging_port = 53312
+- 11:41:18.203 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53312
+- 11:41:19.015 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=959A4FD55442DF4458F7E37708F61F8A --mojo-platform-channel-handle=1848 /prefetch:2
+- 11:41:19.297 DEBUG: App::OnContextInitialized()
+- 11:41:19.297 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:41:19.297 DEBUG: Window max width/height = 1842/1034
+- 11:41:19.297 DEBUG: GetBrowserWindow(): not found, hwnd = 329098
+- 11:41:19.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:41:19.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:41:19.297 DEBUG: StoreBrowserWindow(): hwnd = 329098
+- 11:41:19.735 DEBUG: ClientHandler::OnAfterCreated()
+- 11:41:19.735 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:41:19.750 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:41:19.000 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E4A473696A0CCE13F092804941D35679 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E4A473696A0CCE13F092804941D35679 --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+- 11:41:20.313 DEBUG: OnBrowserCreated()
+[1013/114121.872:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:41:25.250 INFO: GET 500 /
+- 11:41:25.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51454/
+- 11:41:29.625 DEBUG: WM_DESTROY
+- 11:41:29.625 DEBUG: RemoveBrowserWindow(): hwnd = 329098
+- 11:41:29.625 INFO: Stopping Mongoose web server
+- 11:41:29.625 DEBUG: Mongoose webserver stopped immediately
+- 11:41:29.625 DEBUG: OnBeforeClose() hwnd=67046
+- 11:41:29.625 DEBUG: RemoveBrowserWindow(): hwnd = 67046
+- 11:41:29.625 DEBUG: GetBrowserWindow(): not found, hwnd = 67046
+- 11:41:29.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:41:29.641 DEBUG: Calling CefQuitMessageLoop()
+- 11:41:29.813 INFO: Ended application
+- 11:41:29.813 INFO: --------------------------------------------------------
+- 11:41:57.125 INFO: --------------------------------------------------------
+- 11:41:57.125 INFO: Started application
+- 11:41:57.125 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:41:57.125 INFO: Log level = DEBUG4
+- 11:41:57.125 INFO: Starting Mongoose 3.9c web server
+- 11:41:57.125 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:41:57.125 INFO: Index files: index.html,index.php
+- 11:41:57.125 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:41:57.125 INFO: CGI pattern: **.php$
+- 11:41:57.125 INFO: Hide files patterns: 
+- 11:41:57.125 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:41:57.125 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:41:57.141 INFO: Web server url: http://127.0.0.1:51462/
+- 11:41:57.141 INFO: remote_debugging_port = 61631
+- 11:41:57.141 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61631
+- 11:41:57.219 DEBUG: App::OnContextInitialized()
+- 11:41:57.219 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:41:57.219 DEBUG: Window max width/height = 1842/1034
+- 11:41:57.219 DEBUG: GetBrowserWindow(): not found, hwnd = 460170
+- 11:41:57.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:41:57.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:41:57.219 DEBUG: StoreBrowserWindow(): hwnd = 460170
+- 11:41:57.297 DEBUG: ClientHandler::OnAfterCreated()
+- 11:41:57.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:41:57.313 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:41:57.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=649D5C7320A4788F4A335CB4F7C3F63C --mojo-platform-channel-handle=1284 /prefetch:2
+- 11:41:57.015 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=076FD3E66E7CC25E6019C6EDC9F92322 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=076FD3E66E7CC25E6019C6EDC9F92322 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+[1013/114157.437:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:41:57.078 DEBUG: OnBrowserCreated()
+- 11:42:01.828 INFO: GET 500 /
+- 11:42:01.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51462/
+- 11:42:13.047 DEBUG: WM_DESTROY
+- 11:42:13.047 DEBUG: RemoveBrowserWindow(): hwnd = 460170
+- 11:42:13.047 INFO: Stopping Mongoose web server
+- 11:42:13.063 DEBUG: Mongoose webserver stopped immediately
+- 11:42:13.063 DEBUG: OnBeforeClose() hwnd=67072
+- 11:42:13.063 DEBUG: RemoveBrowserWindow(): hwnd = 67072
+- 11:42:13.063 DEBUG: GetBrowserWindow(): not found, hwnd = 67072
+- 11:42:13.063 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:42:13.063 DEBUG: Calling CefQuitMessageLoop()
+- 11:42:13.671 DEBUG: OnBrowserDestroyed()
+- 11:42:13.094 INFO: Ended application
+- 11:42:13.094 INFO: --------------------------------------------------------
+- 11:42:15.093 INFO: --------------------------------------------------------
+- 11:42:15.093 INFO: Started application
+- 11:42:15.093 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:42:15.093 INFO: Log level = DEBUG4
+- 11:42:15.093 INFO: Starting Mongoose 3.9c web server
+- 11:42:15.093 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:42:15.093 INFO: Index files: index.html,index.php
+- 11:42:15.109 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:42:15.109 INFO: CGI pattern: **.php$
+- 11:42:15.109 INFO: Hide files patterns: 
+- 11:42:15.109 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:42:15.109 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:42:15.125 INFO: Web server url: http://127.0.0.1:51464/
+- 11:42:15.125 INFO: remote_debugging_port = 49256
+- 11:42:15.125 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=49256
+- 11:42:15.187 DEBUG: App::OnContextInitialized()
+- 11:42:15.187 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:42:15.187 DEBUG: Window max width/height = 1842/1034
+- 11:42:15.187 DEBUG: GetBrowserWindow(): not found, hwnd = 591238
+- 11:42:15.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:42:15.187 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:42:15.187 DEBUG: StoreBrowserWindow(): hwnd = 591238
+- 11:42:15.265 DEBUG: ClientHandler::OnAfterCreated()
+- 11:42:15.265 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:42:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=BE1CC2757D582EDBF896DD0469B6B773 --mojo-platform-channel-handle=1800 /prefetch:2
+- 11:42:15.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:42:15.000 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=99B3979C63F62755D4CC925D76283116 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=99B3979C63F62755D4CC925D76283116 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[1013/114215.388:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:42:15.063 DEBUG: OnBrowserCreated()
+- 11:42:21.171 INFO: GET 500 /
+- 11:42:21.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51464/
+- 11:42:23.437 DEBUG: WM_DESTROY
+- 11:42:23.437 DEBUG: RemoveBrowserWindow(): hwnd = 591238
+- 11:42:23.437 INFO: Stopping Mongoose web server
+- 11:42:23.453 DEBUG: Mongoose webserver stopped immediately
+- 11:42:23.453 DEBUG: OnBeforeClose() hwnd=460124
+- 11:42:23.453 DEBUG: RemoveBrowserWindow(): hwnd = 460124
+- 11:42:23.453 DEBUG: GetBrowserWindow(): not found, hwnd = 460124
+- 11:42:23.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:42:23.453 DEBUG: Calling CefQuitMessageLoop()
+- 11:42:23.484 INFO: Ended application
+- 11:42:23.484 INFO: --------------------------------------------------------
+- 11:42:29.094 INFO: --------------------------------------------------------
+- 11:42:29.094 INFO: Started application
+- 11:42:29.094 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:42:29.094 INFO: Log level = DEBUG4
+- 11:42:29.109 INFO: Starting Mongoose 3.9c web server
+- 11:42:29.109 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:42:29.109 INFO: Index files: index.html,index.php
+- 11:42:29.109 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:42:29.109 INFO: CGI pattern: **.php$
+- 11:42:29.125 INFO: Hide files patterns: 
+- 11:42:29.125 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:42:29.125 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:42:29.125 INFO: Web server url: http://127.0.0.1:51466/
+- 11:42:29.125 INFO: remote_debugging_port = 60913
+- 11:42:29.125 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=60913
+- 11:42:30.203 DEBUG: App::OnContextInitialized()
+- 11:42:30.203 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:42:30.203 DEBUG: Window max width/height = 1842/1034
+- 11:42:30.203 DEBUG: GetBrowserWindow(): not found, hwnd = 656874
+- 11:42:30.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:42:30.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:42:30.203 DEBUG: StoreBrowserWindow(): hwnd = 656874
+- 11:42:30.265 DEBUG: ClientHandler::OnAfterCreated()
+- 11:42:30.265 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:42:30.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=CE1FC45763D18AFCCA6D3C9FE6F82A39 --mojo-platform-channel-handle=1816 /prefetch:2
+- 11:42:30.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:42:30.000 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3CF7470A94D4A5497E94BB785DD6AB90 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3CF7470A94D4A5497E94BB785DD6AB90 --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+[1013/114230.184:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:42:30.031 DEBUG: OnBrowserCreated()
+- 11:42:33.422 INFO: GET 500 /
+- 11:42:33.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51466/
+- 11:42:35.000 DEBUG: WM_DESTROY
+- 11:42:35.000 DEBUG: RemoveBrowserWindow(): hwnd = 656874
+- 11:42:35.015 INFO: Stopping Mongoose web server
+- 11:42:35.015 DEBUG: Mongoose webserver stopped immediately
+- 11:42:35.015 DEBUG: OnBeforeClose() hwnd=460182
+- 11:42:35.015 DEBUG: RemoveBrowserWindow(): hwnd = 460182
+- 11:42:35.015 DEBUG: GetBrowserWindow(): not found, hwnd = 460182
+- 11:42:35.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:42:35.015 DEBUG: Calling CefQuitMessageLoop()
+- 11:42:35.062 INFO: Ended application
+- 11:42:35.062 INFO: --------------------------------------------------------
+- 11:44:39.297 INFO: --------------------------------------------------------
+- 11:44:39.297 INFO: Started application
+- 11:44:39.297 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:44:39.297 INFO: Log level = DEBUG4
+- 11:44:39.297 INFO: Starting Mongoose 3.9c web server
+- 11:44:39.313 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:44:39.313 INFO: Index files: index.html,index.php
+- 11:44:39.328 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:44:39.328 INFO: CGI pattern: **.php$
+- 11:44:39.328 INFO: Hide files patterns: 
+- 11:44:39.328 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:44:39.328 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:44:39.328 INFO: Web server url: http://127.0.0.1:51478/
+- 11:44:39.344 INFO: remote_debugging_port = 61035
+- 11:44:39.344 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61035
+- 11:44:39.422 DEBUG: App::OnContextInitialized()
+- 11:44:39.422 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:44:39.422 DEBUG: Window max width/height = 1842/1034
+- 11:44:39.422 DEBUG: GetBrowserWindow(): not found, hwnd = 394692
+- 11:44:39.438 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:44:39.438 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:44:39.438 DEBUG: StoreBrowserWindow(): hwnd = 394692
+- 11:44:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=8BF343B6D1BF6B46B0EA29C9FC5150C1 --mojo-platform-channel-handle=1800 /prefetch:2
+- 11:44:39.500 DEBUG: ClientHandler::OnAfterCreated()
+- 11:44:39.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:44:39.516 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:44:39.000 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D57760B934A086B5A7812D6E0F293E61 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D57760B934A086B5A7812D6E0F293E61 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[1013/114439.429:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:44:39.047 DEBUG: OnBrowserCreated()
+- 11:45:12.359 INFO: GET 500 /
+- 11:45:12.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51478/
+- 11:49:09.078 DEBUG: WM_DESTROY
+- 11:49:09.094 DEBUG: RemoveBrowserWindow(): hwnd = 394692
+- 11:49:09.125 INFO: Stopping Mongoose web server
+- 11:49:09.125 DEBUG: Mongoose webserver stopped immediately
+- 11:49:09.141 DEBUG: OnBeforeClose() hwnd=918984
+- 11:49:09.141 DEBUG: RemoveBrowserWindow(): hwnd = 918984
+- 11:49:09.141 DEBUG: GetBrowserWindow(): not found, hwnd = 918984
+- 11:49:09.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:49:09.141 DEBUG: Calling CefQuitMessageLoop()
+- 11:49:10.578 DEBUG: OnBrowserDestroyed()
+- 11:49:10.188 INFO: Ended application
+- 11:49:10.188 INFO: --------------------------------------------------------
+- 11:37:55.125 INFO: --------------------------------------------------------
+- 11:37:55.157 INFO: Started application
+- 11:37:55.157 INFO: Logging to: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:37:55.157 INFO: Log level = DEBUG4
+- 11:37:55.157 INFO: Starting Mongoose 3.9c web server
+- 11:37:55.157 INFO: WWW directory: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:37:55.157 INFO: Index files: index.html,index.php
+- 11:37:55.157 INFO: CGI interpreter: C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:37:55.157 INFO: CGI pattern: **.php$
+- 11:37:55.157 INFO: Hide files patterns: 
+- 11:37:55.157 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:37:55.203 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:37:55.250 INFO: Web server url: http://127.0.0.1:50061/
+- 11:37:55.250 INFO: remote_debugging_port = 56548
+- 11:37:55.250 DEBUG: Command line string for the browser process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56548
+- 11:37:56.938 DEBUG: App::OnContextInitialized()
+- 11:37:56.938 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:37:56.938 DEBUG: Window max width/height = 1842/1034
+- 11:37:56.938 DEBUG: GetBrowserWindow(): not found, hwnd = 329466
+- 11:37:56.938 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:37:56.938 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:37:56.938 DEBUG: StoreBrowserWindow(): hwnd = 329466
+- 11:37:56.031 DEBUG: Command line string for the gpu-process process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=1E20EEE6427F43C8D3F6D0494728522B --mojo-platform-channel-handle=1828 /prefetch:2
+- 11:37:56.250 DEBUG: ClientHandler::OnAfterCreated()
+- 11:37:56.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:37:56.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:37:56.000 DEBUG: Command line string for the renderer process: "C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D1C32C3587429B5D4706600D3FAF9660 --lang=en-US --lang=en-US --log-file="C:\Users\Etiquetas\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D1C32C3587429B5D4706600D3FAF9660 --renderer-client-id=3 --mojo-platform-channel-handle=2444 /prefetch:1
+- 11:37:58.360 DEBUG: OnBrowserCreated()
+[0208/113800.340:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:38:05.657 INFO: GET 200 /
+- 11:38:05.782 INFO: GET 200 /style.css
+- 11:38:05.641 DEBUG: OnContextCreated()
+- 11:38:05.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50061/
+- 11:42:33.032 DEBUG: F5 pressed, reloading page
+- 11:42:33.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50061/
+- 11:42:33.047 INFO: GET 200 /
+- 11:42:33.813 DEBUG: OnContextCreated()
+- 11:42:33.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50061/
+- 11:44:07.813 DEBUG: WM_DESTROY
+- 11:44:07.813 DEBUG: RemoveBrowserWindow(): hwnd = 329466
+- 11:44:07.813 INFO: Stopping Mongoose web server
+- 11:44:07.813 DEBUG: Mongoose webserver stopped immediately
+- 11:44:07.828 DEBUG: OnBeforeClose() hwnd=657136
+- 11:44:07.828 DEBUG: RemoveBrowserWindow(): hwnd = 657136
+- 11:44:07.828 DEBUG: GetBrowserWindow(): not found, hwnd = 657136
+- 11:44:07.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:44:07.828 DEBUG: Calling CefQuitMessageLoop()
+- 11:44:07.735 DEBUG: OnBrowserDestroyed()
+- 11:44:08.797 INFO: Ended application
+- 11:44:08.797 INFO: --------------------------------------------------------
+- 11:45:31.094 INFO: --------------------------------------------------------
+- 11:45:31.094 INFO: Started application
+- 11:45:31.094 INFO: Logging to: c:\Users\Etiquetas\Desktop\PntVnt\debug.log
+- 11:45:31.094 INFO: Log level = DEBUG4
+- 11:45:31.094 INFO: Starting Mongoose 3.9c web server
+- 11:45:31.094 INFO: WWW directory: c:\Users\Etiquetas\Desktop\PntVnt\www
+- 11:45:31.094 INFO: Index files: index.html,index.php
+- 11:45:31.094 INFO: CGI interpreter: c:\Users\Etiquetas\Desktop\PntVnt\php\php-cgi.exe
+- 11:45:31.094 INFO: CGI pattern: **.php$
+- 11:45:31.094 INFO: Hide files patterns: 
+- 11:45:31.094 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:45:31.094 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:45:31.110 INFO: Web server url: http://127.0.0.1:50117/
+- 11:45:31.125 INFO: remote_debugging_port = 56404
+- 11:45:31.125 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --remote-debugging-port=56404
+- 11:45:31.204 DEBUG: App::OnContextInitialized()
+- 11:45:31.204 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:45:31.204 DEBUG: Window max width/height = 1842/1034
+- 11:45:31.219 DEBUG: GetBrowserWindow(): not found, hwnd = 853866
+- 11:45:31.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:45:31.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:45:31.219 DEBUG: StoreBrowserWindow(): hwnd = 853866
+- 11:45:31.000 DEBUG: Command line string for the gpu-process process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --service-request-channel-token=DB219C43788EB32D9A3B36C32542E37E --mojo-platform-channel-handle=1824 /prefetch:2
+- 11:45:31.313 DEBUG: ClientHandler::OnAfterCreated()
+- 11:45:31.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:45:31.329 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:45:31.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5A4900A5164AE74B1F8CD8668A8A5CBE --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5A4900A5164AE74B1F8CD8668A8A5CBE --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0208/114531.570:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:45:31.063 DEBUG: OnBrowserCreated()
+- 11:45:32.547 INFO: GET 200 /
+- 11:45:32.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50117/
+- 11:45:44.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50117/
+- 11:45:44.985 INFO: GET 200 /
+- 11:45:44.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50117/
+- 11:46:19.704 DEBUG: F5 pressed, reloading page
+- 11:46:19.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50117/
+- 11:46:19.797 INFO: GET 200 /
+- 11:46:19.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50117/
+- 11:46:30.922 DEBUG: F5 pressed, reloading page
+- 11:46:30.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50117/
+- 11:46:30.032 INFO: GET 200 /
+- 11:46:30.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50117/
+- 11:46:48.125 DEBUG: F5 pressed, reloading page
+- 11:46:48.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50117/
+- 11:46:48.235 INFO: GET 200 /
+- 11:46:48.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50117/
+- 11:46:50.891 DEBUG: WM_DESTROY
+- 11:46:50.891 DEBUG: RemoveBrowserWindow(): hwnd = 853866
+- 11:46:50.891 INFO: Stopping Mongoose web server
+- 11:46:50.891 DEBUG: Mongoose webserver stopped immediately
+- 11:46:50.891 DEBUG: OnBeforeClose() hwnd=722164
+- 11:46:50.907 DEBUG: RemoveBrowserWindow(): hwnd = 722164
+- 11:46:50.907 DEBUG: GetBrowserWindow(): not found, hwnd = 722164
+- 11:46:50.907 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:46:50.907 DEBUG: Calling CefQuitMessageLoop()
+- 11:46:50.969 INFO: Ended application
+- 11:46:50.969 INFO: --------------------------------------------------------
+- 11:46:54.109 INFO: --------------------------------------------------------
+- 11:46:54.109 INFO: Started application
+- 11:46:54.109 INFO: Logging to: c:\Users\Etiquetas\Desktop\PntVnt\debug.log
+- 11:46:54.109 INFO: Log level = DEBUG4
+- 11:46:54.109 INFO: Starting Mongoose 3.9c web server
+- 11:46:54.109 INFO: WWW directory: c:\Users\Etiquetas\Desktop\PntVnt\www
+- 11:46:54.109 INFO: Index files: index.html,index.php
+- 11:46:54.109 INFO: CGI interpreter: c:\Users\Etiquetas\Desktop\PntVnt\php\php-cgi.exe
+- 11:46:54.109 INFO: CGI pattern: **.php$
+- 11:46:54.109 INFO: Hide files patterns: 
+- 11:46:54.109 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 11:46:54.109 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:46:54.125 INFO: Web server url: http://127.0.0.1:50136/
+- 11:46:54.125 INFO: remote_debugging_port = 58417
+- 11:46:54.125 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --remote-debugging-port=58417
+- 11:46:55.203 DEBUG: App::OnContextInitialized()
+- 11:46:55.203 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 11:46:55.203 DEBUG: Window max width/height = 1842/1034
+- 11:46:55.203 DEBUG: GetBrowserWindow(): not found, hwnd = 919424
+- 11:46:55.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:46:55.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:46:55.203 DEBUG: StoreBrowserWindow(): hwnd = 919424
+- 11:46:55.000 DEBUG: Command line string for the gpu-process process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --service-request-channel-token=7DA937F86942527F37C427DD1C94ABD8 --mojo-platform-channel-handle=1836 /prefetch:2
+- 11:46:55.281 DEBUG: ClientHandler::OnAfterCreated()
+- 11:46:55.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:46:55.312 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:46:55.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=9DF973F990F0FEE3AFB3649D8FDA5078 --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9DF973F990F0FEE3AFB3649D8FDA5078 --renderer-client-id=3 --mojo-platform-channel-handle=2324 /prefetch:1
+[0208/114655.224:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:46:55.063 DEBUG: OnBrowserCreated()
+- 11:46:56.593 INFO: GET 200 /
+- 11:46:56.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:50:27.015 DEBUG: F5 pressed, reloading page
+- 11:50:27.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:50:27.125 INFO: GET 200 /
+- 11:50:27.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:50:46.640 DEBUG: F5 pressed, reloading page
+- 11:50:46.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:50:46.718 INFO: GET 200 /
+- 11:50:46.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:51:06.453 DEBUG: F5 pressed, reloading page
+- 11:51:06.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:51:06.515 INFO: GET 404 /css/styles.css
+- 11:51:06.531 INFO: GET 200 /
+- 11:51:06.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:51:09.062 DEBUG: F5 pressed, reloading page
+- 11:51:09.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:51:09.125 INFO: GET 200 /css/style.css
+- 11:51:09.140 INFO: GET 200 /
+- 11:51:09.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:51:16.843 DEBUG: F5 pressed, reloading page
+- 11:51:16.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:51:16.968 INFO: GET 200 /css/style.css
+- 11:51:16.984 INFO: GET 200 /
+- 11:51:16.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:51:23.859 DEBUG: F5 pressed, reloading page
+- 11:51:23.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:51:23.922 INFO: GET 200 /css/style.css
+- 11:51:23.937 INFO: GET 200 /
+- 11:51:23.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:25.672 DEBUG: F5 pressed, reloading page
+- 11:52:25.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:25.781 INFO: GET 200 /css/style.css
+- 11:52:25.797 INFO: GET 200 /
+- 11:52:25.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:41.359 DEBUG: F5 pressed, reloading page
+- 11:52:41.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:41.437 INFO: GET 200 /css/style.css
+- 11:52:41.453 INFO: GET 200 /
+- 11:52:41.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:48.937 DEBUG: F5 pressed, reloading page
+- 11:52:48.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:48.047 INFO: GET 200 /css/style.css
+- 11:52:48.047 INFO: GET 200 /
+- 11:52:48.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:57.140 DEBUG: F5 pressed, reloading page
+- 11:52:57.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:58.250 INFO: GET 200 /css/style.css
+- 11:52:58.250 INFO: GET 200 /
+- 11:52:58.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:58.156 DEBUG: F5 pressed, reloading page
+- 11:52:58.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:59.234 INFO: GET 200 /css/style.css
+- 11:52:59.250 INFO: GET 200 /
+- 11:52:59.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:59.312 DEBUG: F5 pressed, reloading page
+- 11:52:59.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:59.390 INFO: GET 200 /css/style.css
+- 11:52:59.390 INFO: GET 200 /
+- 11:52:59.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:59.500 DEBUG: F5 pressed, reloading page
+- 11:52:59.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:59.593 INFO: GET 200 /css/style.css
+- 11:52:59.593 INFO: GET 200 /
+- 11:52:59.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:59.656 DEBUG: F5 pressed, reloading page
+- 11:52:59.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:59.718 INFO: GET 200 /css/style.css
+- 11:52:59.734 INFO: GET 200 /
+- 11:52:59.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:52:59.797 DEBUG: F5 pressed, reloading page
+- 11:52:59.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:52:59.875 INFO: GET 200 /css/style.css
+- 11:52:59.875 INFO: GET 200 /
+- 11:52:59.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:53:31.828 DEBUG: F5 pressed, reloading page
+- 11:53:31.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:53:31.937 INFO: GET 200 /css/style.css
+- 11:53:31.937 INFO: GET 200 /
+- 11:53:31.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:53:43.797 DEBUG: F5 pressed, reloading page
+- 11:53:43.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:53:43.875 INFO: GET 200 /css/style.css
+- 11:53:43.890 INFO: GET 200 /
+- 11:53:43.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:02.078 DEBUG: F5 pressed, reloading page
+- 11:54:02.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:02.156 INFO: GET 200 /css/style.css
+- 11:54:03.172 INFO: GET 200 /
+- 11:54:03.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:03.656 DEBUG: F5 pressed, reloading page
+- 11:54:03.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:03.750 INFO: GET 200 /css/style.css
+- 11:54:03.765 INFO: GET 200 /
+- 11:54:03.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:03.828 DEBUG: F5 pressed, reloading page
+- 11:54:03.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:03.890 INFO: GET 200 /css/style.css
+- 11:54:03.890 INFO: GET 200 /
+- 11:54:03.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:03.984 DEBUG: F5 pressed, reloading page
+- 11:54:03.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:03.078 INFO: GET 200 /css/style.css
+- 11:54:03.093 INFO: GET 200 /
+- 11:54:03.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:03.156 DEBUG: F5 pressed, reloading page
+- 11:54:03.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:04.218 INFO: GET 200 /css/style.css
+- 11:54:04.218 INFO: GET 200 /
+- 11:54:04.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:04.328 DEBUG: F5 pressed, reloading page
+- 11:54:04.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:04.422 INFO: GET 200 /css/style.css
+- 11:54:04.437 INFO: GET 200 /
+- 11:54:04.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:22.672 DEBUG: F5 pressed, reloading page
+- 11:54:22.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:22.797 INFO: GET 200 /css/style.css
+- 11:54:22.797 INFO: GET 404 /encabezado.html
+- 11:54:22.828 INFO: GET 200 /
+- 11:54:22.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:52.453 DEBUG: F5 pressed, reloading page
+- 11:54:52.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:52.468 INFO: GET 200 /
+- 11:54:52.484 INFO: GET 200 /css/style.css
+- 11:54:52.484 INFO: GET 404 /encabezado.html
+- 11:54:52.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:57.734 DEBUG: F5 pressed, reloading page
+- 11:54:57.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:57.734 INFO: GET 200 /
+- 11:54:57.765 INFO: GET 200 /css/style.css
+- 11:54:57.765 INFO: GET 404 /encabezado.html
+- 11:54:57.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:59.703 DEBUG: F5 pressed, reloading page
+- 11:54:59.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:59.718 INFO: GET 200 /
+- 11:54:59.750 INFO: GET 200 /css/style.css
+- 11:54:59.750 INFO: GET 404 /encabezado.html
+- 11:54:59.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:59.890 DEBUG: F5 pressed, reloading page
+- 11:54:59.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:59.890 INFO: GET 200 /
+- 11:54:59.906 INFO: GET 200 /css/style.css
+- 11:54:59.922 INFO: GET 404 /encabezado.html
+- 11:54:59.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:54:59.062 DEBUG: F5 pressed, reloading page
+- 11:54:59.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:54:59.078 INFO: GET 200 /
+- 11:54:59.093 INFO: GET 200 /css/style.css
+- 11:54:59.093 INFO: GET 404 /encabezado.html
+- 11:54:59.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:00.203 DEBUG: F5 pressed, reloading page
+- 11:55:00.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:00.203 INFO: GET 200 /
+- 11:55:00.234 INFO: GET 200 /css/style.css
+- 11:55:00.234 INFO: GET 404 /encabezado.html
+- 11:55:00.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:05.859 DEBUG: F5 pressed, reloading page
+- 11:55:05.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:05.859 INFO: GET 200 /
+- 11:55:05.906 INFO: GET 200 /css/style.css
+- 11:55:05.906 INFO: GET 404 /encabezado.html
+- 11:55:05.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:19.859 DEBUG: F5 pressed, reloading page
+- 11:55:19.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:19.890 INFO: GET 200 /
+- 11:55:19.906 INFO: GET 200 /css/style.css
+- 11:55:19.906 INFO: GET 404 /encabezado.html
+- 11:55:19.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:39.843 DEBUG: F5 pressed, reloading page
+- 11:55:39.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:39.843 INFO: GET 200 /
+- 11:55:39.859 INFO: GET 200 /css/style.css
+- 11:55:39.859 INFO: GET 404 /encabezado.html
+- 11:55:39.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:47.203 DEBUG: F5 pressed, reloading page
+- 11:55:47.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:47.218 INFO: GET 200 /
+- 11:55:47.234 INFO: GET 200 /css/style.css
+- 11:55:47.234 INFO: GET 404 /encabezado.html
+- 11:55:47.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:55:56.843 DEBUG: F5 pressed, reloading page
+- 11:55:56.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:55:56.875 INFO: GET 200 /
+- 11:55:56.890 INFO: GET 200 /css/style.css
+- 11:55:56.890 INFO: GET 404 /encabezado.html
+- 11:55:56.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:16.531 DEBUG: F5 pressed, reloading page
+- 11:56:16.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:16.547 INFO: GET 200 /
+- 11:56:16.547 INFO: GET 200 /css/style.css
+- 11:56:16.562 INFO: GET 404 /encabezado.html
+- 11:56:16.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:19.828 DEBUG: F5 pressed, reloading page
+- 11:56:19.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:19.828 INFO: GET 200 /
+- 11:56:19.843 INFO: GET 200 /css/style.css
+- 11:56:19.859 INFO: GET 404 /encabezado.html
+- 11:56:19.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:22.718 DEBUG: F5 pressed, reloading page
+- 11:56:22.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:22.718 INFO: GET 200 /
+- 11:56:22.750 INFO: GET 200 /css/style.css
+- 11:56:22.765 INFO: GET 404 /encabezado.html
+- 11:56:22.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:40.093 DEBUG: F5 pressed, reloading page
+- 11:56:40.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:40.093 INFO: GET 200 /
+- 11:56:40.109 INFO: GET 200 /css/style.css
+- 11:56:40.109 INFO: GET 404 /encabezado.html
+- 11:56:40.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:45.203 DEBUG: F5 pressed, reloading page
+- 11:56:45.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:45.234 INFO: GET 200 /
+- 11:56:45.234 INFO: GET 200 /css/style.css
+- 11:56:45.250 INFO: GET 404 /encabezado.html
+- 11:56:45.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:56:56.437 DEBUG: F5 pressed, reloading page
+- 11:56:56.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:56:56.453 INFO: GET 200 /
+- 11:56:56.484 INFO: GET 200 /css/style.css
+- 11:56:56.484 INFO: GET 404 /encabezado.html
+- 11:56:56.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:57:22.000 DEBUG: F5 pressed, reloading page
+- 11:57:22.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:57:22.000 INFO: GET 200 /
+- 11:57:22.000 INFO: GET 200 /css/style.css
+- 11:57:22.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:57:32.140 DEBUG: F5 pressed, reloading page
+- 11:57:32.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:57:32.156 INFO: GET 200 /
+- 11:57:33.172 INFO: GET 200 /css/style.css
+- 11:57:33.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:57:52.859 DEBUG: F5 pressed, reloading page
+- 11:57:52.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:57:52.859 INFO: GET 200 /
+- 11:57:52.859 INFO: GET 200 /css/style.css
+- 11:57:52.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:57:57.125 DEBUG: F5 pressed, reloading page
+- 11:57:57.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:57:57.156 INFO: GET 200 /
+- 11:57:58.172 INFO: GET 200 /css/style.css
+- 11:57:58.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:58:05.265 DEBUG: F5 pressed, reloading page
+- 11:58:05.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:58:05.265 INFO: GET 200 /
+- 11:58:05.281 INFO: GET 200 /css/style.css
+- 11:58:05.281 INFO: GET 404 /encabezado.html
+- 11:58:05.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:58:42.625 DEBUG: F5 pressed, reloading page
+- 11:58:42.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:58:42.640 INFO: GET 200 /
+- 11:58:42.656 INFO: GET 200 /css/style.css
+- 11:58:42.672 INFO: GET 404 /encabezado.html
+- 11:58:42.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:58:59.843 DEBUG: F5 pressed, reloading page
+- 11:58:59.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:58:59.859 INFO: GET 200 /
+- 11:58:59.859 INFO: GET 200 /css/style.css
+- 11:58:59.859 INFO: GET 404 /encabezado.html
+- 11:58:59.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:59:25.078 DEBUG: F5 pressed, reloading page
+- 11:59:25.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:59:25.078 INFO: GET 200 /
+- 11:59:25.109 INFO: GET 200 /css/style.css
+- 11:59:25.109 INFO: GET 404 /encabezado.html
+- 11:59:25.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:59:39.437 DEBUG: F5 pressed, reloading page
+- 11:59:39.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:59:39.437 INFO: GET 200 /
+- 11:59:39.468 INFO: GET 200 /css/style.css
+- 11:59:39.468 INFO: GET 404 /encabezado.html
+- 11:59:39.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:59:47.687 DEBUG: F5 pressed, reloading page
+- 11:59:47.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:59:47.703 INFO: GET 200 /
+- 11:59:47.718 INFO: GET 200 /css/style.css
+- 11:59:47.718 INFO: GET 404 /encabezado.html
+- 11:59:47.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 11:59:57.203 DEBUG: F5 pressed, reloading page
+- 11:59:57.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 11:59:57.218 INFO: GET 200 /
+- 11:59:57.218 INFO: GET 200 /css/style.css
+- 11:59:57.218 INFO: GET 404 /encabezado.html
+- 11:59:57.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:00:03.125 DEBUG: F5 pressed, reloading page
+- 12:00:03.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:00:03.125 INFO: GET 200 /
+- 12:00:03.140 INFO: GET 200 /css/style.css
+- 12:00:03.140 INFO: GET 404 /encabezado.html
+- 12:00:03.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:00:11.906 DEBUG: ClientHandler::OnAfterCreated()
+- 12:00:11.906 DEBUG: GetBrowserWindow(): not found, hwnd = 6292978
+- 12:00:11.906 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:00:11.922 DEBUG: StoreBrowserWindow(): hwnd = 6292978
+- 12:00:11.937 DEBUG: Centering popup window relative to its parent
+- 12:00:11.937 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:00:11.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6877CA79D0DA1428ECBD498DBC738774 --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6877CA79D0DA1428ECBD498DBC738774 --renderer-client-id=4 --mojo-platform-channel-handle=3484 /prefetch:1
+- 12:00:11.047 DEBUG: OnBrowserCreated()
+- 12:00:11.078 DEBUG: OnContextCreated()
+- 12:00:12.281 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 12:00:12.547 DEBUG: OnContextCreated()
+- 12:00:12.563 DEBUG: OnContextCreated()
+- 12:00:12.968 INFO: GET 304 /css/style.css
+- 12:00:33.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:00:33.484 INFO: GET 304 /
+- 12:00:33.203 DEBUG: OnContextCreated()
+- 12:00:33.562 INFO: GET 304 /css/style.css
+- 12:00:33.562 INFO: GET 404 /encabezado.html
+- 12:00:33.219 DEBUG: OnContextCreated()
+- 12:00:33.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:00:36.328 DEBUG: F5 pressed, reloading page
+- 12:00:36.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:00:36.343 INFO: GET 200 /
+- 12:00:36.000 DEBUG: OnContextCreated()
+- 12:00:36.375 INFO: GET 200 /css/style.css
+- 12:00:36.375 INFO: GET 404 /encabezado.html
+- 12:00:36.016 DEBUG: OnContextCreated()
+- 12:00:36.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:00:38.109 DEBUG: OnBeforeClose() hwnd=6292978
+- 12:00:38.109 DEBUG: RemoveBrowserWindow(): hwnd = 6292978
+- 12:01:15.250 DEBUG: F5 pressed, reloading page
+- 12:01:15.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:01:15.265 INFO: GET 200 /
+- 12:01:15.922 DEBUG: OnContextCreated()
+- 12:01:15.281 INFO: GET 200 /css/style.css
+- 12:01:15.297 INFO: GET 200 /encabezado.html
+- 12:01:15.312 INFO: GET 404 /css/styles.css
+- 12:01:15.312 INFO: GET 404 /img/logoaguida.jpg
+- 12:01:15.953 DEBUG: OnContextCreated()
+- 12:01:15.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:01:37.828 DEBUG: F5 pressed, reloading page
+- 12:01:37.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:01:37.843 INFO: GET 200 /
+- 12:01:37.484 DEBUG: OnContextCreated()
+- 12:01:37.859 INFO: GET 200 /css/style.css
+- 12:01:37.859 INFO: GET 200 /encabezado.html
+- 12:01:37.875 INFO: GET 404 /css/styles.css
+- 12:01:37.875 INFO: GET 404 /img/logoaguida.jpg
+- 12:01:37.531 DEBUG: OnContextCreated()
+- 12:01:37.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:03:53.109 DEBUG: F5 pressed, reloading page
+- 12:03:53.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:03:53.125 INFO: GET 200 /
+- 12:03:53.781 DEBUG: OnContextCreated()
+- 12:03:53.156 INFO: GET 200 /css/style.css
+- 12:03:53.156 INFO: GET 200 /encabezado.html
+- 12:03:54.172 INFO: GET 404 /css/styles.css
+- 12:03:54.172 INFO: GET 404 /img/logoaguida.jpg
+- 12:03:54.828 DEBUG: OnContextCreated()
+- 12:03:54.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:05:01.500 DEBUG: F5 pressed, reloading page
+- 12:05:01.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:05:01.500 INFO: GET 200 /
+- 12:05:01.141 DEBUG: OnContextCreated()
+- 12:05:01.515 INFO: GET 200 /css/style.css
+- 12:05:01.515 INFO: GET 200 /encabezado.html
+- 12:05:01.515 INFO: GET 200 /css/styleEncabezado.css
+- 12:05:01.531 INFO: GET 404 /img/logoaguida.jpg
+- 12:05:01.172 DEBUG: OnContextCreated()
+- 12:05:01.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:06:16.234 DEBUG: F5 pressed, reloading page
+- 12:06:16.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:06:16.250 INFO: GET 200 /
+- 12:06:16.906 DEBUG: OnContextCreated()
+- 12:06:16.265 INFO: GET 404 /css/styleEcabezado.css
+- 12:06:16.265 INFO: GET 200 /encabezado.html
+- 12:06:16.281 INFO: GET 200 /css/styleEncabezado.css
+- 12:06:16.281 INFO: GET 404 /img/logoaguida.jpg
+- 12:06:16.938 DEBUG: OnContextCreated()
+- 12:06:16.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:06:26.343 DEBUG: F5 pressed, reloading page
+- 12:06:26.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:06:26.359 INFO: GET 200 /
+- 12:06:26.016 DEBUG: OnContextCreated()
+- 12:06:26.390 INFO: GET 200 /css/style.css
+- 12:06:26.390 INFO: GET 200 /encabezado.html
+- 12:06:26.406 INFO: GET 200 /css/styleEncabezado.css
+- 12:06:26.406 INFO: GET 404 /img/logoaguida.jpg
+- 12:06:26.063 DEBUG: OnContextCreated()
+- 12:06:26.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:06:57.422 DEBUG: F5 pressed, reloading page
+- 12:06:57.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:06:57.422 INFO: GET 200 /
+- 12:06:57.078 DEBUG: OnContextCreated()
+- 12:06:57.453 INFO: GET 200 /css/style.css
+- 12:06:57.453 INFO: GET 200 /encabezado.html
+- 12:06:57.468 INFO: GET 200 /css/styleEncabezado.css
+- 12:06:57.468 INFO: GET 404 /img/logoaguida.jpg
+- 12:06:57.125 DEBUG: OnContextCreated()
+- 12:06:57.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:07:49.640 DEBUG: ClientHandler::OnAfterCreated()
+- 12:07:49.640 DEBUG: GetBrowserWindow(): not found, hwnd = 1836712
+- 12:07:49.640 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:07:49.640 DEBUG: StoreBrowserWindow(): hwnd = 1836712
+- 12:07:49.640 DEBUG: Centering popup window relative to its parent
+- 12:07:49.656 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:07:49.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F741A24F1179F67CE2D2B28868BBBE8A --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F741A24F1179F67CE2D2B28868BBBE8A --renderer-client-id=5 --mojo-platform-channel-handle=3532 /prefetch:1
+- 12:07:49.047 DEBUG: OnBrowserCreated()
+- 12:07:49.079 DEBUG: OnContextCreated()
+- 12:07:49.000 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 12:07:50.172 INFO: GET 304 /css/styleEncabezado.css
+- 12:07:50.172 INFO: GET 304 /css/style.css
+- 12:07:58.203 DEBUG: OnBeforeClose() hwnd=1836712
+- 12:07:58.203 DEBUG: RemoveBrowserWindow(): hwnd = 1836712
+- 12:08:17.672 DEBUG: F5 pressed, reloading page
+- 12:08:17.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:08:17.672 INFO: GET 200 /
+- 12:08:17.313 DEBUG: OnContextCreated()
+- 12:08:17.687 INFO: GET 200 /css/style.css
+- 12:08:17.687 INFO: GET 200 /encabezado.html
+- 12:08:17.703 INFO: GET 200 /css/styleEncabezado.css
+- 12:08:17.703 INFO: GET 404 /img/logoaguida.jpg
+- 12:08:17.344 DEBUG: OnContextCreated()
+- 12:08:17.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:08:49.281 DEBUG: F5 pressed, reloading page
+- 12:08:49.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:08:49.297 INFO: GET 200 /
+- 12:08:49.953 DEBUG: OnContextCreated()
+- 12:08:49.328 INFO: GET 200 /css/styleEncabezado.css
+- 12:08:49.328 INFO: GET 200 /encabezado.html
+- 12:08:49.343 INFO: GET 200 /css/styleEncabezado.css
+- 12:08:49.343 INFO: GET 404 /img/logoaguida.jpg
+- 12:08:49.984 DEBUG: OnContextCreated()
+- 12:08:49.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:08:52.422 DEBUG: F5 pressed, reloading page
+- 12:08:52.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:08:52.437 INFO: GET 200 /
+- 12:08:52.078 DEBUG: OnContextCreated()
+- 12:08:52.453 INFO: GET 200 /css/style.css
+- 12:08:52.453 INFO: GET 200 /encabezado.html
+- 12:08:52.453 INFO: GET 200 /css/styleEncabezado.css
+- 12:08:52.468 INFO: GET 404 /img/logoaguida.jpg
+- 12:08:52.109 DEBUG: OnContextCreated()
+- 12:08:52.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:08:58.640 DEBUG: F5 pressed, reloading page
+- 12:08:58.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:08:58.640 INFO: GET 200 /
+- 12:08:58.281 DEBUG: OnContextCreated()
+- 12:08:58.656 INFO: GET 200 /css/style.css
+- 12:08:58.656 INFO: GET 200 /encabezado.html
+- 12:08:58.656 INFO: GET 404 /img/logoaguida.jpg
+- 12:08:58.656 INFO: GET 200 /css/styleEncabezado.css
+- 12:08:58.313 DEBUG: OnContextCreated()
+- 12:08:58.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:09:03.906 DEBUG: F5 pressed, reloading page
+- 12:09:03.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:09:03.906 INFO: GET 200 /
+- 12:09:03.547 DEBUG: OnContextCreated()
+- 12:09:03.922 INFO: GET 200 /css/style.css
+- 12:09:03.922 INFO: GET 200 /encabezado.html
+- 12:09:03.937 INFO: GET 200 /css/styleEncabezado.css
+- 12:09:03.937 INFO: GET 404 /img/logoaguida.jpg
+- 12:09:03.578 DEBUG: OnContextCreated()
+- 12:09:03.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:09:25.812 DEBUG: F5 pressed, reloading page
+- 12:09:25.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:09:25.828 INFO: GET 200 /
+- 12:09:25.484 DEBUG: OnContextCreated()
+- 12:09:25.859 INFO: GET 200 /css/style.css
+- 12:09:25.859 INFO: GET 200 /encabezado.html
+- 12:09:25.875 INFO: GET 200 /css/styleEncabezado.css
+- 12:09:25.875 INFO: GET 404 /img/logoaguida.jpg
+- 12:09:25.516 DEBUG: OnContextCreated()
+- 12:09:25.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:09:32.734 DEBUG: F5 pressed, reloading page
+- 12:09:32.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:09:32.750 INFO: GET 200 /
+- 12:09:32.391 DEBUG: OnContextCreated()
+- 12:09:32.765 INFO: GET 200 /css/style.css
+- 12:09:32.765 INFO: GET 200 /encabezado.html
+- 12:09:32.781 INFO: GET 200 /css/styleEncabezado.css
+- 12:09:32.781 INFO: GET 404 /img/logoaguida.jpg
+- 12:09:32.438 DEBUG: OnContextCreated()
+- 12:09:32.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:09:42.500 DEBUG: F5 pressed, reloading page
+- 12:09:42.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:09:42.515 INFO: GET 200 /
+- 12:09:42.172 DEBUG: OnContextCreated()
+- 12:09:42.531 INFO: GET 200 /css/style.css
+- 12:09:42.547 INFO: GET 200 /encabezado.html
+- 12:09:42.547 INFO: GET 200 /css/styleEncabezado.css
+- 12:09:42.562 INFO: GET 404 /img/logoaguida.jpg
+- 12:09:42.203 DEBUG: OnContextCreated()
+- 12:09:42.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:10:29.078 DEBUG: F5 pressed, reloading page
+- 12:10:29.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:10:29.093 INFO: GET 200 /
+- 12:10:29.750 DEBUG: OnContextCreated()
+- 12:10:29.125 INFO: GET 200 /css/style.css
+- 12:10:29.125 INFO: GET 200 /encabezado.html
+- 12:10:29.140 INFO: GET 200 /css/styleEncabezado.css
+- 12:10:29.140 INFO: GET 404 /img/logoaguida.jpg
+- 12:10:29.797 DEBUG: OnContextCreated()
+- 12:10:29.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:11:31.297 DEBUG: F5 pressed, reloading page
+- 12:11:31.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:11:31.297 INFO: GET 200 /
+- 12:11:31.938 DEBUG: OnContextCreated()
+- 12:11:31.312 INFO: GET 200 /css/style.css
+- 12:11:31.312 INFO: GET 200 /encabezado.html
+- 12:11:31.312 INFO: GET 200 /css/styleEncabezado.css
+- 12:11:31.312 INFO: GET 404 /img/logoaguida.jpg
+- 12:11:31.969 DEBUG: OnContextCreated()
+- 12:11:31.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:12:54.140 DEBUG: ClientHandler::OnAfterCreated()
+- 12:12:54.140 DEBUG: GetBrowserWindow(): not found, hwnd = 3213038
+- 12:12:54.140 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:12:54.140 DEBUG: StoreBrowserWindow(): hwnd = 3213038
+- 12:12:54.140 DEBUG: Centering popup window relative to its parent
+- 12:12:54.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:12:55.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BDF3B220C1DCC30D04E8B8D759AD95B6 --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BDF3B220C1DCC30D04E8B8D759AD95B6 --renderer-client-id=6 --mojo-platform-channel-handle=3836 /prefetch:1
+- 12:12:55.047 DEBUG: OnBrowserCreated()
+- 12:12:55.079 DEBUG: OnContextCreated()
+- 12:12:55.484 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 12:12:55.656 INFO: GET 304 /css/styleEncabezado.css
+- 12:12:55.656 INFO: GET 304 /css/style.css
+- 12:13:00.875 DEBUG: OnBeforeClose() hwnd=3213038
+- 12:13:00.875 DEBUG: RemoveBrowserWindow(): hwnd = 3213038
+- 12:13:02.968 DEBUG: ClientHandler::OnAfterCreated()
+- 12:13:02.968 DEBUG: GetBrowserWindow(): not found, hwnd = 3344110
+- 12:13:02.968 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:13:02.968 DEBUG: StoreBrowserWindow(): hwnd = 3344110
+- 12:13:02.984 DEBUG: Centering popup window relative to its parent
+- 12:13:02.000 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:13:02.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4CDAD21C1598ED746FA7E9320BE6199D --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4CDAD21C1598ED746FA7E9320BE6199D --renderer-client-id=7 --mojo-platform-channel-handle=3664 /prefetch:1
+- 12:13:02.046 DEBUG: OnBrowserCreated()
+- 12:13:02.078 DEBUG: OnContextCreated()
+- 12:13:03.312 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 12:13:26.890 DEBUG: F5 pressed, reloading page
+- 12:13:26.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:26.890 INFO: GET 200 /
+- 12:13:26.547 DEBUG: OnContextCreated()
+- 12:13:26.906 INFO: GET 200 /css/style.css
+- 12:13:26.922 INFO: GET 200 /encabezado.html
+- 12:13:26.563 DEBUG: OnContextCreated()
+- 12:13:26.937 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:26.937 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:26.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:13:31.500 DEBUG: F12 pressed, opening developer tools
+- 12:13:31.531 DEBUG: ClientHandler::OnAfterCreated()
+- 12:13:31.531 DEBUG: GetBrowserWindow(): not found, hwnd = 7275804
+- 12:13:31.531 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:13:31.547 DEBUG: StoreBrowserWindow(): hwnd = 7275804
+- 12:13:31.547 DEBUG: Centering popup window relative to its parent
+- 12:13:31.562 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:13:31.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=41B50DB6AF30282B9B44D2678D6407A5 --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=41B50DB6AF30282B9B44D2678D6407A5 --renderer-client-id=8 --mojo-platform-channel-handle=1456 /prefetch:1
+- 12:13:31.047 DEBUG: OnBrowserCreated()
+- 12:13:31.062 DEBUG: OnContextCreated()
+- 12:13:31.875 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 12:13:33.359 DEBUG: OnBeforeClose() hwnd=7275804
+- 12:13:33.359 DEBUG: RemoveBrowserWindow(): hwnd = 7275804
+- 12:13:33.000 DEBUG: OnBeforeClose() hwnd=3344110
+- 12:13:33.000 DEBUG: RemoveBrowserWindow(): hwnd = 3344110
+- 12:13:36.578 DEBUG: F5 pressed, reloading page
+- 12:13:36.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:36.578 INFO: GET 200 /
+- 12:13:36.234 DEBUG: OnContextCreated()
+- 12:13:36.609 INFO: GET 200 /css/style.css
+- 12:13:36.609 INFO: GET 200 /encabezado.html
+- 12:13:36.625 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:36.625 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:36.281 DEBUG: OnContextCreated()
+- 12:13:36.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:13:36.750 DEBUG: F5 pressed, reloading page
+- 12:13:36.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:36.765 INFO: GET 200 /
+- 12:13:36.406 DEBUG: OnContextCreated()
+- 12:13:36.781 INFO: GET 200 /css/style.css
+- 12:13:36.781 INFO: GET 200 /encabezado.html
+- 12:13:36.797 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:36.797 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:36.453 DEBUG: OnContextCreated()
+- 12:13:36.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:13:36.906 DEBUG: F5 pressed, reloading page
+- 12:13:36.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:36.922 INFO: GET 200 /
+- 12:13:36.594 DEBUG: OnContextCreated()
+- 12:13:36.953 INFO: GET 200 /css/style.css
+- 12:13:36.953 INFO: GET 200 /encabezado.html
+- 12:13:36.968 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:36.968 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:36.625 DEBUG: OnContextCreated()
+- 12:13:36.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:13:36.047 DEBUG: F5 pressed, reloading page
+- 12:13:36.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:36.062 INFO: GET 200 /
+- 12:13:36.703 DEBUG: OnContextCreated()
+- 12:13:36.062 INFO: GET 200 /css/style.css
+- 12:13:36.078 INFO: GET 200 /encabezado.html
+- 12:13:36.078 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:36.078 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:36.734 DEBUG: OnContextCreated()
+- 12:13:36.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:13:59.531 DEBUG: F5 pressed, reloading page
+- 12:13:59.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:13:59.547 INFO: GET 200 /
+- 12:13:59.188 DEBUG: OnContextCreated()
+- 12:13:59.562 INFO: GET 200 /css/style.css
+- 12:13:59.562 INFO: GET 200 /encabezado.html
+- 12:13:59.578 INFO: GET 404 /img/logoaguida.jpg
+- 12:13:59.578 INFO: GET 200 /css/styleEncabezado.css
+- 12:13:59.219 DEBUG: OnContextCreated()
+- 12:13:59.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:14:03.656 DEBUG: F5 pressed, reloading page
+- 12:14:03.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:14:03.656 INFO: GET 200 /
+- 12:14:03.313 DEBUG: OnContextCreated()
+- 12:14:03.672 INFO: GET 200 /css/style.css
+- 12:14:03.672 INFO: GET 200 /encabezado.html
+- 12:14:03.687 INFO: GET 200 /css/styleEncabezado.css
+- 12:14:03.687 INFO: GET 404 /img/logoaguida.jpg
+- 12:14:03.344 DEBUG: OnContextCreated()
+- 12:14:03.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:14:14.672 DEBUG: F5 pressed, reloading page
+- 12:14:14.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:14:14.672 INFO: GET 200 /
+- 12:14:14.328 DEBUG: OnContextCreated()
+- 12:14:14.687 INFO: GET 200 /css/style.css
+- 12:14:14.687 INFO: GET 200 /encabezado.html
+- 12:14:14.703 INFO: GET 404 /img/logoaguida.jpg
+- 12:14:14.703 INFO: GET 200 /css/styleEncabezado.css
+- 12:14:14.359 DEBUG: OnContextCreated()
+- 12:14:14.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:14:23.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:14:23.328 INFO: GET 404 /index.php
+- 12:14:23.984 DEBUG: OnContextCreated()
+- 12:14:23.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/index.php
+- 12:14:28.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/index.php
+- 12:14:28.453 DEBUG: OnContextCreated()
+- 12:14:28.469 DEBUG: OnContextCreated()
+- 12:14:28.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:15:46.625 DEBUG: F5 pressed, reloading page
+- 12:15:46.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:15:46.640 INFO: GET 200 /
+- 12:15:46.297 DEBUG: OnContextCreated()
+- 12:15:46.672 INFO: GET 200 /css/style.css
+- 12:15:46.672 INFO: GET 200 /encabezado.html
+- 12:15:46.687 INFO: GET 200 /css/styleEncabezado.css
+- 12:15:46.687 INFO: GET 404 /img/logoaguida.jpg
+- 12:15:46.328 DEBUG: OnContextCreated()
+- 12:15:46.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:16:23.812 DEBUG: F5 pressed, reloading page
+- 12:16:23.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:16:23.812 INFO: GET 200 /
+- 12:16:23.469 DEBUG: OnContextCreated()
+- 12:16:23.828 INFO: GET 200 /css/style.css
+- 12:16:23.828 INFO: GET 200 /encabezado.html
+- 12:16:23.843 INFO: GET 200 /css/styleEncabezado.css
+- 12:16:23.843 INFO: GET 404 /img/logoaguida.jpg
+- 12:16:23.500 DEBUG: OnContextCreated()
+- 12:16:23.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:16:28.703 DEBUG: F5 pressed, reloading page
+- 12:16:28.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:16:28.703 INFO: GET 200 /
+- 12:16:28.359 DEBUG: OnContextCreated()
+- 12:16:28.718 INFO: GET 200 /css/style.css
+- 12:16:28.734 INFO: GET 200 /encabezado.html
+- 12:16:28.734 INFO: GET 404 /img/logoaguida.jpg
+- 12:16:28.734 INFO: GET 200 /css/styleEncabezado.css
+- 12:16:28.391 DEBUG: OnContextCreated()
+- 12:16:28.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:16:38.531 DEBUG: F5 pressed, reloading page
+- 12:16:38.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:16:38.531 INFO: GET 200 /
+- 12:16:38.188 DEBUG: OnContextCreated()
+- 12:16:38.562 INFO: GET 200 /css/style.css
+- 12:16:38.578 INFO: GET 200 /encabezado.html
+- 12:16:38.593 INFO: GET 200 /css/styleEncabezado.css
+- 12:16:38.593 INFO: GET 404 /img/logoaguida.jpg
+- 12:16:38.234 DEBUG: OnContextCreated()
+- 12:16:38.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:17:03.500 DEBUG: F5 pressed, reloading page
+- 12:17:03.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:17:03.515 INFO: GET 200 /
+- 12:17:03.172 DEBUG: OnContextCreated()
+- 12:17:03.531 INFO: GET 200 /css/style.css
+- 12:17:03.547 INFO: GET 200 /encabezado.html
+- 12:17:03.562 INFO: GET 200 /css/styleEncabezado.css
+- 12:17:03.562 INFO: GET 404 /img/logoaguida.jpg
+- 12:17:03.203 DEBUG: OnContextCreated()
+- 12:17:03.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:17:16.062 DEBUG: F5 pressed, reloading page
+- 12:17:16.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:17:16.078 INFO: GET 200 /
+- 12:17:16.734 DEBUG: OnContextCreated()
+- 12:17:16.093 INFO: GET 200 /css/style.css
+- 12:17:16.093 INFO: GET 200 /encabezado.html
+- 12:17:16.125 INFO: GET 200 /css/styleEncabezado.css
+- 12:17:16.125 INFO: GET 404 /img/logoaguida.jpg
+- 12:17:16.766 DEBUG: OnContextCreated()
+- 12:17:16.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:17:52.812 DEBUG: F5 pressed, reloading page
+- 12:17:52.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:17:52.828 INFO: GET 200 /
+- 12:17:52.469 DEBUG: OnContextCreated()
+- 12:17:52.828 INFO: GET 200 /css/style.css
+- 12:17:52.843 INFO: GET 200 /encabezado.html
+- 12:17:52.843 INFO: GET 200 /css/styleEncabezado.css
+- 12:17:52.843 INFO: GET 404 /img/logoaguida.jpg
+- 12:17:52.500 DEBUG: OnContextCreated()
+- 12:17:52.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:01.578 DEBUG: F5 pressed, reloading page
+- 12:18:01.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:01.578 INFO: GET 200 /
+- 12:18:01.234 DEBUG: OnContextCreated()
+- 12:18:01.593 INFO: GET 200 /css/style.css
+- 12:18:01.593 INFO: GET 200 /encabezado.html
+- 12:18:01.609 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:01.609 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:01.266 DEBUG: OnContextCreated()
+- 12:18:01.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:08.562 DEBUG: F5 pressed, reloading page
+- 12:18:08.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:08.578 INFO: GET 200 /
+- 12:18:08.219 DEBUG: OnContextCreated()
+- 12:18:08.593 INFO: GET 200 /css/style.css
+- 12:18:08.593 INFO: GET 200 /encabezado.html
+- 12:18:08.609 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:08.609 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:08.250 DEBUG: OnContextCreated()
+- 12:18:08.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:12.047 DEBUG: F5 pressed, reloading page
+- 12:18:12.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:12.047 INFO: GET 200 /
+- 12:18:12.703 DEBUG: OnContextCreated()
+- 12:18:12.062 INFO: GET 200 /css/style.css
+- 12:18:12.062 INFO: GET 200 /encabezado.html
+- 12:18:12.078 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:12.078 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:12.719 DEBUG: OnContextCreated()
+- 12:18:12.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:15.875 DEBUG: F5 pressed, reloading page
+- 12:18:15.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:15.875 INFO: GET 200 /
+- 12:18:15.531 DEBUG: OnContextCreated()
+- 12:18:15.890 INFO: GET 200 /css/style.css
+- 12:18:15.890 INFO: GET 200 /encabezado.html
+- 12:18:15.906 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:15.906 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:15.563 DEBUG: OnContextCreated()
+- 12:18:15.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:18.062 DEBUG: F5 pressed, reloading page
+- 12:18:18.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:18.078 INFO: GET 200 /
+- 12:18:18.719 DEBUG: OnContextCreated()
+- 12:18:18.093 INFO: GET 200 /css/style.css
+- 12:18:18.093 INFO: GET 200 /encabezado.html
+- 12:18:18.109 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:18.109 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:18.766 DEBUG: OnContextCreated()
+- 12:18:18.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:25.625 DEBUG: F5 pressed, reloading page
+- 12:18:25.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:25.640 INFO: GET 200 /
+- 12:18:25.281 DEBUG: OnContextCreated()
+- 12:18:25.640 INFO: GET 200 /css/style.css
+- 12:18:25.656 INFO: GET 200 /encabezado.html
+- 12:18:25.656 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:25.656 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:25.313 DEBUG: OnContextCreated()
+- 12:18:25.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:28.156 DEBUG: F5 pressed, reloading page
+- 12:18:28.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:28.172 INFO: GET 200 /
+- 12:18:29.828 DEBUG: OnContextCreated()
+- 12:18:29.187 INFO: GET 200 /css/style.css
+- 12:18:29.187 INFO: GET 200 /encabezado.html
+- 12:18:29.203 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:29.203 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:29.859 DEBUG: OnContextCreated()
+- 12:18:29.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:32.281 DEBUG: F5 pressed, reloading page
+- 12:18:32.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:32.297 INFO: GET 200 /
+- 12:18:32.953 DEBUG: OnContextCreated()
+- 12:18:32.312 INFO: GET 200 /css/style.css
+- 12:18:32.328 INFO: GET 200 /encabezado.html
+- 12:18:32.343 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:32.343 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:32.000 DEBUG: OnContextCreated()
+- 12:18:32.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:36.687 DEBUG: F5 pressed, reloading page
+- 12:18:36.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:36.703 INFO: GET 200 /
+- 12:18:36.359 DEBUG: OnContextCreated()
+- 12:18:36.718 INFO: GET 200 /css/style.css
+- 12:18:36.734 INFO: GET 200 /encabezado.html
+- 12:18:36.750 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:36.750 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:36.391 DEBUG: OnContextCreated()
+- 12:18:36.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:38.953 DEBUG: F5 pressed, reloading page
+- 12:18:38.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:38.953 INFO: GET 200 /
+- 12:18:38.594 DEBUG: OnContextCreated()
+- 12:18:38.968 INFO: GET 200 /css/style.css
+- 12:18:38.968 INFO: GET 200 /encabezado.html
+- 12:18:38.968 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:38.968 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:38.625 DEBUG: OnContextCreated()
+- 12:18:38.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:49.484 DEBUG: F5 pressed, reloading page
+- 12:18:49.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:49.500 INFO: GET 200 /
+- 12:18:49.172 DEBUG: OnContextCreated()
+- 12:18:49.531 INFO: GET 200 /css/style.css
+- 12:18:49.531 INFO: GET 200 /encabezado.html
+- 12:18:49.547 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:49.547 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:49.188 DEBUG: OnContextCreated()
+- 12:18:49.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:18:54.531 DEBUG: F5 pressed, reloading page
+- 12:18:54.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:18:54.531 INFO: GET 200 /
+- 12:18:54.172 DEBUG: OnContextCreated()
+- 12:18:54.547 INFO: GET 200 /css/style.css
+- 12:18:54.547 INFO: GET 200 /encabezado.html
+- 12:18:54.562 INFO: GET 404 /img/logoaguida.jpg
+- 12:18:54.562 INFO: GET 200 /css/styleEncabezado.css
+- 12:18:54.203 DEBUG: OnContextCreated()
+- 12:18:54.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:19:17.531 DEBUG: F5 pressed, reloading page
+- 12:19:17.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:19:17.531 INFO: GET 200 /
+- 12:19:17.188 DEBUG: OnContextCreated()
+- 12:19:17.547 INFO: GET 200 /css/style.css
+- 12:19:17.562 INFO: GET 200 /encabezado.html
+- 12:19:17.562 INFO: GET 200 /css/styleEncabezado.css
+- 12:19:17.562 INFO: GET 404 /img/logoaguida.jpg
+- 12:19:17.219 DEBUG: OnContextCreated()
+- 12:19:17.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:19:56.328 DEBUG: F5 pressed, reloading page
+- 12:19:56.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:19:56.328 INFO: GET 200 /
+- 12:19:56.000 DEBUG: OnContextCreated()
+- 12:19:56.359 INFO: GET 200 /css/style.css
+- 12:19:56.375 INFO: GET 200 /encabezado.html
+- 12:19:56.390 INFO: GET 200 /css/styleEncabezado.css
+- 12:19:56.390 INFO: GET 404 /img/logoaguida.jpg
+- 12:19:56.031 DEBUG: OnContextCreated()
+- 12:19:56.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:20:03.593 DEBUG: F5 pressed, reloading page
+- 12:20:03.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:20:03.593 INFO: GET 200 /
+- 12:20:03.234 DEBUG: OnContextCreated()
+- 12:20:03.609 INFO: GET 200 /css/style.css
+- 12:20:03.609 INFO: GET 200 /encabezado.html
+- 12:20:03.625 INFO: GET 200 /css/styleEncabezado.css
+- 12:20:03.625 INFO: GET 404 /img/logoaguida.jpg
+- 12:20:03.281 DEBUG: OnContextCreated()
+- 12:20:03.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:20:06.672 DEBUG: F5 pressed, reloading page
+- 12:20:06.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:20:06.687 INFO: GET 200 /
+- 12:20:06.344 DEBUG: OnContextCreated()
+- 12:20:06.718 INFO: GET 200 /css/style.css
+- 12:20:06.718 INFO: GET 200 /encabezado.html
+- 12:20:06.734 INFO: GET 200 /css/styleEncabezado.css
+- 12:20:06.734 INFO: GET 404 /img/logoaguida.jpg
+- 12:20:06.375 DEBUG: OnContextCreated()
+- 12:20:06.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:20:44.578 DEBUG: F5 pressed, reloading page
+- 12:20:44.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:20:44.593 INFO: GET 200 /
+- 12:20:44.234 DEBUG: OnContextCreated()
+- 12:20:44.593 INFO: GET 200 /css/style.css
+- 12:20:44.609 INFO: GET 200 /encabezado.html
+- 12:20:44.609 INFO: GET 200 /css/styleEncabezado.css
+- 12:20:44.609 INFO: GET 404 /img/logoaguida.jpg
+- 12:20:44.266 DEBUG: OnContextCreated()
+- 12:20:44.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:20:50.515 DEBUG: F5 pressed, reloading page
+- 12:20:50.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:20:50.515 INFO: GET 200 /
+- 12:20:50.172 DEBUG: OnContextCreated()
+- 12:20:50.531 INFO: GET 200 /css/style.css
+- 12:20:50.547 INFO: GET 200 /encabezado.html
+- 12:20:50.547 INFO: GET 200 /css/styleEncabezado.css
+- 12:20:50.547 INFO: GET 404 /img/logoMorf.jpg
+- 12:20:50.203 DEBUG: OnContextCreated()
+- 12:20:50.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:21:55.750 DEBUG: F5 pressed, reloading page
+- 12:21:55.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:21:55.750 INFO: GET 200 /
+- 12:21:55.391 DEBUG: OnContextCreated()
+- 12:21:55.765 INFO: GET 200 /css/style.css
+- 12:21:55.765 INFO: GET 200 /encabezado.html
+- 12:21:55.781 INFO: GET 200 /css/styleEncabezado.css
+- 12:21:55.781 INFO: GET 404 /img/logoMorf.jpg
+- 12:21:55.422 DEBUG: OnContextCreated()
+- 12:21:55.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:22:02.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:22:02.672 INFO: GET 404 /index.php
+- 12:22:02.313 DEBUG: OnContextCreated()
+- 12:22:02.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/index.php
+- 12:22:05.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/index.php
+- 12:22:05.844 DEBUG: OnContextCreated()
+- 12:22:05.859 DEBUG: OnContextCreated()
+- 12:22:05.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:22:27.453 DEBUG: F5 pressed, reloading page
+- 12:22:27.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:22:27.468 INFO: GET 200 /
+- 12:22:27.141 DEBUG: OnContextCreated()
+- 12:22:27.515 INFO: GET 200 /css/style.css
+- 12:22:27.515 INFO: GET 200 /encabezado.html
+- 12:22:27.531 INFO: GET 200 /css/styleEncabezado.css
+- 12:22:27.531 INFO: GET 404 /img/logoMorf.jpg
+- 12:22:27.172 DEBUG: OnContextCreated()
+- 12:22:27.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:22:47.343 DEBUG: F5 pressed, reloading page
+- 12:22:47.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:22:47.343 INFO: GET 200 /
+- 12:22:47.000 DEBUG: OnContextCreated()
+- 12:22:47.359 INFO: GET 200 /css/style.css
+- 12:22:47.359 INFO: GET 200 /encabezado.html
+- 12:22:47.375 INFO: GET 404 /img/logoMorf.jpg
+- 12:22:47.375 INFO: GET 200 /css/styleEncabezado.css
+- 12:22:47.031 DEBUG: OnContextCreated()
+- 12:22:47.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:23:51.437 DEBUG: F5 pressed, reloading page
+- 12:23:51.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:23:51.453 INFO: GET 200 /
+- 12:23:51.109 DEBUG: OnContextCreated()
+- 12:23:51.484 INFO: GET 200 /css/style.css
+- 12:23:51.484 INFO: GET 200 /encabezado.html
+- 12:23:51.500 INFO: GET 200 /css/styleEncabezado.css
+- 12:23:51.500 INFO: GET 404 /img/logoMorf.jpg
+- 12:23:51.141 DEBUG: OnContextCreated()
+- 12:23:51.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:11.547 DEBUG: F5 pressed, reloading page
+- 12:25:11.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:11.562 INFO: GET 200 /
+- 12:25:11.219 DEBUG: OnContextCreated()
+- 12:25:11.578 INFO: GET 200 /css/style.css
+- 12:25:11.578 INFO: GET 200 /encabezado.html
+- 12:25:11.281 DEBUG: OnContextCreated()
+- 12:25:11.625 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:11.625 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:11.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:17.687 DEBUG: F5 pressed, reloading page
+- 12:25:17.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:17.703 INFO: GET 200 /
+- 12:25:17.359 DEBUG: OnContextCreated()
+- 12:25:17.734 INFO: GET 200 /css/style.css
+- 12:25:17.734 INFO: GET 200 /encabezado.html
+- 12:25:17.750 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:17.750 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:17.391 DEBUG: OnContextCreated()
+- 12:25:17.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:25.234 DEBUG: F5 pressed, reloading page
+- 12:25:25.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:25.234 INFO: GET 200 /
+- 12:25:25.891 DEBUG: OnContextCreated()
+- 12:25:25.265 INFO: GET 200 /css/style.css
+- 12:25:25.265 INFO: GET 200 /encabezado.html
+- 12:25:25.281 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:25.281 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:25.922 DEBUG: OnContextCreated()
+- 12:25:25.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:28.172 DEBUG: F5 pressed, reloading page
+- 12:25:28.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:28.172 INFO: GET 200 /
+- 12:25:28.828 DEBUG: OnContextCreated()
+- 12:25:28.203 INFO: GET 200 /css/style.css
+- 12:25:28.203 INFO: GET 200 /encabezado.html
+- 12:25:28.218 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:28.218 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:28.859 DEBUG: OnContextCreated()
+- 12:25:28.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:32.828 DEBUG: F5 pressed, reloading page
+- 12:25:32.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:32.843 INFO: GET 200 /
+- 12:25:32.500 DEBUG: OnContextCreated()
+- 12:25:32.875 INFO: GET 200 /css/style.css
+- 12:25:32.875 INFO: GET 200 /encabezado.html
+- 12:25:32.890 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:32.890 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:32.547 DEBUG: OnContextCreated()
+- 12:25:32.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:25:37.734 DEBUG: F5 pressed, reloading page
+- 12:25:37.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:25:37.750 INFO: GET 200 /
+- 12:25:37.406 DEBUG: OnContextCreated()
+- 12:25:37.781 INFO: GET 200 /css/style.css
+- 12:25:37.797 INFO: GET 200 /encabezado.html
+- 12:25:37.797 INFO: GET 200 /css/styleEncabezado.css
+- 12:25:37.812 INFO: GET 404 /img/logoMorf.jpg
+- 12:25:37.453 DEBUG: OnContextCreated()
+- 12:25:37.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:26:23.593 DEBUG: F5 pressed, reloading page
+- 12:26:23.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:26:23.609 INFO: GET 200 /
+- 12:26:23.266 DEBUG: OnContextCreated()
+- 12:26:23.640 INFO: GET 200 /css/style.css
+- 12:26:23.640 INFO: GET 200 /encabezado.html
+- 12:26:23.656 INFO: GET 200 /css/styleEncabezado.css
+- 12:26:23.656 INFO: GET 404 /img/logoMorf.jpg
+- 12:26:23.313 DEBUG: OnContextCreated()
+- 12:26:23.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:32:56.297 DEBUG: F5 pressed, reloading page
+- 12:32:56.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:32:56.312 INFO: GET 200 /
+- 12:32:56.953 DEBUG: OnContextCreated()
+- 12:32:56.312 INFO: GET 200 /css/style.css
+- 12:32:56.312 INFO: GET 200 /encabezado.html
+- 12:32:56.328 INFO: GET 200 /css/styleEncabezado.css
+- 12:32:56.328 INFO: GET 404 /img/logoMorf.jpg
+- 12:32:56.984 DEBUG: OnContextCreated()
+- 12:32:56.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:33:57.453 DEBUG: F5 pressed, reloading page
+- 12:33:57.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50136/
+- 12:33:57.453 INFO: GET 200 /
+- 12:33:57.109 DEBUG: OnContextCreated()
+- 12:33:57.468 INFO: GET 200 /css/style.css
+- 12:33:57.468 INFO: GET 200 /encabezado.html
+- 12:33:57.484 INFO: GET 200 /css/styleEncabezado.css
+- 12:33:57.484 INFO: GET 404 /img/logoMorf.jpg
+- 12:33:57.125 DEBUG: OnContextCreated()
+- 12:33:57.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50136/
+- 12:33:59.843 DEBUG: WM_DESTROY
+- 12:33:59.859 DEBUG: RemoveBrowserWindow(): hwnd = 919424
+- 12:33:59.859 INFO: Stopping Mongoose web server
+- 12:33:59.859 DEBUG: Mongoose webserver stopped immediately
+- 12:33:59.859 DEBUG: OnBeforeClose() hwnd=787700
+- 12:33:59.859 DEBUG: RemoveBrowserWindow(): hwnd = 787700
+- 12:33:59.859 DEBUG: GetBrowserWindow(): not found, hwnd = 787700
+- 12:33:59.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:33:59.875 DEBUG: Calling CefQuitMessageLoop()
+- 12:33:59.937 INFO: Ended application
+- 12:33:59.937 INFO: --------------------------------------------------------
+- 12:34:06.078 INFO: --------------------------------------------------------
+- 12:34:06.078 INFO: Started application
+- 12:34:06.078 INFO: Logging to: c:\Users\Etiquetas\Desktop\PntVnt\debug.log
+- 12:34:06.094 INFO: Log level = DEBUG4
+- 12:34:06.094 INFO: Starting Mongoose 3.9c web server
+- 12:34:06.094 INFO: WWW directory: c:\Users\Etiquetas\Desktop\PntVnt\www
+- 12:34:06.094 INFO: Index files: index.html,index.php
+- 12:34:06.094 INFO: CGI interpreter: c:\Users\Etiquetas\Desktop\PntVnt\php\php-cgi.exe
+- 12:34:06.094 INFO: CGI pattern: **.php$
+- 12:34:06.094 INFO: Hide files patterns: 
+- 12:34:06.094 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 12:34:06.094 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:34:06.110 INFO: Web server url: http://127.0.0.1:51136/
+- 12:34:07.110 INFO: remote_debugging_port = 54174
+- 12:34:07.110 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --remote-debugging-port=54174
+- 12:34:07.188 DEBUG: App::OnContextInitialized()
+- 12:34:07.188 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:34:07.188 DEBUG: Window max width/height = 1842/1034
+- 12:34:07.188 DEBUG: GetBrowserWindow(): not found, hwnd = 329632
+- 12:34:07.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:34:07.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:34:07.188 DEBUG: StoreBrowserWindow(): hwnd = 329632
+- 12:34:07.000 DEBUG: Command line string for the gpu-process process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --service-request-channel-token=25EFDA39D0ABCB18AAB2C04436311170 --mojo-platform-channel-handle=1804 /prefetch:2
+- 12:34:07.266 DEBUG: ClientHandler::OnAfterCreated()
+- 12:34:07.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:34:07.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:34:07.000 DEBUG: Command line string for the renderer process: "c:\Users\Etiquetas\Desktop\PntVnt\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2D2E5A85D9B4AC3D6CE82BCD4B2F61D6 --lang=en-US --lang=en-US --log-file="c:\Users\Etiquetas\Desktop\PntVnt\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=2D2E5A85D9B4AC3D6CE82BCD4B2F61D6 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0208/123407.274:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:34:07.062 DEBUG: OnBrowserCreated()
+- 12:34:08.500 INFO: GET 200 /
+- 12:34:08.531 INFO: GET 200 /css/style.css
+- 12:34:08.547 INFO: GET 200 /encabezado.html
+- 12:34:08.625 INFO: GET 200 /css/styleEncabezado.css
+- 12:34:08.625 INFO: GET 404 /img/logoMorf.jpg
+- 12:34:08.281 DEBUG: OnContextCreated()
+- 12:34:08.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:34:30.750 DEBUG: F5 pressed, reloading page
+- 12:34:30.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:34:30.750 INFO: GET 200 /
+- 12:34:30.766 INFO: GET 200 /css/style.css
+- 12:34:30.766 INFO: GET 200 /encabezado.html
+- 12:34:30.781 INFO: GET 200 /css/styleEncabezado.css
+- 12:34:30.437 DEBUG: OnContextCreated()
+- 12:34:30.781 INFO: GET 404 /img/logoMorf.jpg
+- 12:34:30.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:35:12.563 DEBUG: F5 pressed, reloading page
+- 12:35:12.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:35:12.578 INFO: GET 200 /
+- 12:35:12.578 INFO: GET 200 /css/style.css
+- 12:35:12.594 INFO: GET 200 /encabezado.html
+- 12:35:12.610 INFO: GET 200 /css/styleEncabezado.css
+- 12:35:12.610 INFO: GET 404 /img/logoMorf.jpg
+- 12:35:12.250 DEBUG: OnContextCreated()
+- 12:35:12.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:35:32.594 DEBUG: F5 pressed, reloading page
+- 12:35:32.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:35:32.610 INFO: GET 200 /
+- 12:35:32.610 INFO: GET 200 /css/style.css
+- 12:35:32.610 INFO: GET 200 /encabezado.html
+- 12:35:32.625 INFO: GET 200 /css/styleEncabezado.css
+- 12:35:32.625 INFO: GET 404 /img/logoMorf.jpg
+- 12:35:32.281 DEBUG: OnContextCreated()
+- 12:35:32.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:35:36.688 DEBUG: F5 pressed, reloading page
+- 12:35:36.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:35:36.703 INFO: GET 200 /
+- 12:35:36.719 INFO: GET 200 /css/style.css
+- 12:35:36.719 INFO: GET 200 /encabezado.html
+- 12:35:36.735 INFO: GET 200 /css/styleEncabezado.css
+- 12:35:36.735 INFO: GET 404 /img/logoMorf.jpg
+- 12:35:36.390 DEBUG: OnContextCreated()
+- 12:35:36.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:35:54.000 DEBUG: F5 pressed, reloading page
+- 12:35:54.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:35:54.000 INFO: GET 200 /
+- 12:35:54.016 INFO: GET 200 /css/style.css
+- 12:35:54.016 INFO: GET 200 /encabezado.html
+- 12:35:54.016 INFO: GET 404 /img/logoMorf.jpg
+- 12:35:54.016 INFO: GET 200 /css/styleEncabezado.css
+- 12:35:54.671 DEBUG: OnContextCreated()
+- 12:35:54.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:04.297 DEBUG: F5 pressed, reloading page
+- 12:36:04.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:04.313 INFO: GET 200 /
+- 12:36:04.313 INFO: GET 200 /css/style.css
+- 12:36:04.328 INFO: GET 200 /encabezado.html
+- 12:36:04.344 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:04.344 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:04.984 DEBUG: OnContextCreated()
+- 12:36:04.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:10.969 DEBUG: F5 pressed, reloading page
+- 12:36:10.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:10.985 INFO: GET 200 /
+- 12:36:10.000 INFO: GET 200 /css/style.css
+- 12:36:10.000 INFO: GET 200 /encabezado.html
+- 12:36:10.016 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:10.016 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:10.671 DEBUG: OnContextCreated()
+- 12:36:10.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:13.266 DEBUG: F5 pressed, reloading page
+- 12:36:13.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:13.281 INFO: GET 200 /
+- 12:36:13.281 INFO: GET 200 /css/style.css
+- 12:36:13.281 INFO: GET 200 /encabezado.html
+- 12:36:13.297 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:13.297 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:13.953 DEBUG: OnContextCreated()
+- 12:36:13.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:19.766 DEBUG: F5 pressed, reloading page
+- 12:36:19.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:19.797 INFO: GET 200 /
+- 12:36:19.797 INFO: GET 200 /css/style.css
+- 12:36:19.828 INFO: GET 200 /encabezado.html
+- 12:36:19.844 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:19.844 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:19.484 DEBUG: OnContextCreated()
+- 12:36:19.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:27.203 DEBUG: F5 pressed, reloading page
+- 12:36:27.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:27.219 INFO: GET 200 /
+- 12:36:27.235 INFO: GET 200 /css/style.css
+- 12:36:27.235 INFO: GET 200 /encabezado.html
+- 12:36:27.250 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:27.250 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:27.906 DEBUG: OnContextCreated()
+- 12:36:27.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:30.625 DEBUG: F5 pressed, reloading page
+- 12:36:30.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:30.641 INFO: GET 200 /
+- 12:36:30.656 INFO: GET 200 /css/style.css
+- 12:36:30.656 INFO: GET 200 /encabezado.html
+- 12:36:30.672 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:30.672 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:30.328 DEBUG: OnContextCreated()
+- 12:36:30.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:42.750 DEBUG: F5 pressed, reloading page
+- 12:36:42.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:42.750 INFO: GET 200 /
+- 12:36:42.766 INFO: GET 200 /css/style.css
+- 12:36:42.766 INFO: GET 200 /encabezado.html
+- 12:36:42.781 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:42.781 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:42.421 DEBUG: OnContextCreated()
+- 12:36:42.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:36:59.953 DEBUG: F5 pressed, reloading page
+- 12:36:59.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:36:59.953 INFO: GET 200 /
+- 12:36:59.953 INFO: GET 200 /css/style.css
+- 12:36:59.969 INFO: GET 200 /encabezado.html
+- 12:36:59.985 INFO: GET 404 /img/logoMorf.jpg
+- 12:36:59.985 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:59.625 DEBUG: OnContextCreated()
+- 12:36:59.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:37:11.250 DEBUG: F5 pressed, reloading page
+- 12:37:11.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:37:11.250 INFO: GET 200 /
+- 12:37:11.266 INFO: GET 200 /css/style.css
+- 12:37:11.281 INFO: GET 200 /encabezado.html
+- 12:37:11.297 INFO: GET 200 /css/styleEncabezado.css
+- 12:37:11.297 INFO: GET 404 /img/logoMorf.jpg
+- 12:37:11.937 DEBUG: OnContextCreated()
+- 12:37:11.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:37:15.344 DEBUG: F5 pressed, reloading page
+- 12:37:15.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:37:15.360 INFO: GET 200 /
+- 12:37:15.375 INFO: GET 200 /css/style.css
+- 12:37:15.391 INFO: GET 200 /encabezado.html
+- 12:37:15.406 INFO: GET 200 /css/styleEncabezado.css
+- 12:37:15.406 INFO: GET 404 /img/logoMorf.jpg
+- 12:37:15.046 DEBUG: OnContextCreated()
+- 12:37:15.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:37:33.719 DEBUG: F5 pressed, reloading page
+- 12:37:33.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:37:33.719 INFO: GET 200 /
+- 12:37:33.750 INFO: GET 200 /css/style.css
+- 12:37:33.750 INFO: GET 200 /encabezado.html
+- 12:37:33.766 INFO: GET 200 /css/styleEncabezado.css
+- 12:37:33.766 INFO: GET 404 /img/logoMorf.jpg
+- 12:37:33.421 DEBUG: OnContextCreated()
+- 12:37:33.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:37:38.781 DEBUG: F5 pressed, reloading page
+- 12:37:38.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51136/
+- 12:37:38.797 INFO: GET 200 /
+- 12:37:38.813 INFO: GET 200 /css/style.css
+- 12:37:38.828 INFO: GET 200 /encabezado.html
+- 12:37:38.844 INFO: GET 200 /css/styleEncabezado.css
+- 12:37:38.844 INFO: GET 404 /img/logoMorf.jpg
+- 12:37:38.484 DEBUG: OnContextCreated()
+- 12:37:38.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51136/
+- 12:38:26.516 DEBUG: WM_DESTROY
+- 12:38:26.516 DEBUG: RemoveBrowserWindow(): hwnd = 329632
+- 12:38:26.516 INFO: Stopping Mongoose web server
+- 12:38:26.531 DEBUG: Mongoose webserver stopped immediately
+- 12:38:26.531 DEBUG: OnBeforeClose() hwnd=9307624
+- 12:38:26.531 DEBUG: RemoveBrowserWindow(): hwnd = 9307624
+- 12:38:26.531 DEBUG: GetBrowserWindow(): not found, hwnd = 9307624
+- 12:38:26.531 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:38:26.531 DEBUG: Calling CefQuitMessageLoop()
+- 12:38:26.610 INFO: Ended application
+- 12:38:26.610 INFO: --------------------------------------------------------

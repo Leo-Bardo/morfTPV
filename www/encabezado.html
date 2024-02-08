@@ -1,0 +1,42 @@
+<!-- **** NOMBRE PENDIENTE DE ASIGNAR PPARA LA APLICACION -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TPV Morf - Julio Muñoz  </title>
+	<link rel="stylesheet" href="css/styleEncabezado.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+<!-- Cambio de logo para aplicacion de punto de venta -->
+            <a href="index.php" target="_top"><img src="img/logoMorf.jpg" alt="Logo Morf" class="logo"></a>
+        </div>
+        <div class="titulo">
+            <h1>TPV Morf - Julio Muñoz</h1>
+        </div>
+        <div class="clock" id="clock">
+            <!-- Hora y Fecha -->
+        </div>
+    </div>
+
+    <script>
+        // Función para mostrar la hora y la fecha actual -- > revisar factibilidad para aplicacion de TPV
+        function displayTime() {
+            const now = new Date();
+            const clockElement = document.getElementById('clock');
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const formattedTime = now.toLocaleDateString('es-ES', options);
+            clockElement.textContent = formattedTime;
+        }
+        // Actualizar la hora y la fecha cada segundo
+        setInterval(displayTime, 1000);
+
+        // Mostrar la hora y la fecha al cargar la página
+        displayTime();
+    </script>
+</body>
+</html>
+
+<!-- DESARROLLADOR ====> JULIO MUÑOZ -->

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PntVnt</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <iframe src="encabezado.html"></iframe>
+        <div id="contenedor">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        <h1>BIENVENIDO </h1>
+                    </div>
+                    <form action="login/solUsuario.php" method="POST">
+                        <div class="formUsuario">
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+                            <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña"  required>
+                            <input type="submit" id="btnIngresar" name="Ingresar">
+                            <input type="hidden" name="form_enviado" value="1">
+
+                        </div>
+                    </form>
+                    <div class="pie-form">
+                        <a href="#">Olvide mi Contraseña</a>
+                    </div>
+                </div>
+                <div class="inferior">
+                    <a href="#">Volver</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
