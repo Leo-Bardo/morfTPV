@@ -9,33 +9,43 @@
 
 
 
-    background-color: #d65981;
+    background-color: #143860;
+/*    #8B9DBE
+    #2F5597*/
 /*    color: white;*/
     
 /*    align-items: center;*/
 }
 .logo{
-/*  border: solid 3px;*/
-  width: 140px;
-  height: 20px;
+/*  border: solid 3px red;*/
+
+/*  width: 100px;
+  height: 20px;*/
   text-align: center;
+}
+img{
+    width: 290px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 .titulo h1{
 /*    border: solid 5px green;*/
     font-size: 35px;
 /*    width: 120%;*/
     text-align: center;
-    color: white;
+    color: black;
 }
 .clock {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
-    background-color: #5e5f79;/*Cambiar color para fondo de reloj*/
+    background-color: #113052;/*Cambiar color para fondo de reloj*/
     padding: 5px 10px;
     border-radius: 5px;
-    width: 340px;/*revisar*/
+    width: 360px;/*revisar*/
     height: 22px;
-    margin-right: 20px;
+    margin-right: 25px;
+    text-transform: 10px;
 }
 body {
     font-family: Arial, sans-serif;

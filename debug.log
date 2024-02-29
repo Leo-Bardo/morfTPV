@@ -4275,3 +4275,1649 @@
 - 20:48:17.641 DEBUG: OnBrowserDestroyed()
 - 20:48:17.640 INFO: Ended application
 - 20:48:17.640 INFO: --------------------------------------------------------
+- 09:11:57.562 INFO: --------------------------------------------------------
+- 09:11:57.562 INFO: Started application
+- 09:11:57.562 INFO: Logging to: C:\xampp\htdocs\Morf TPV\debug.log
+- 09:11:57.562 INFO: Log level = DEBUG4
+- 09:11:57.562 INFO: Starting Mongoose 3.9c web server
+- 09:11:57.562 INFO: WWW directory: C:\xampp\htdocs\Morf TPV\www
+- 09:11:57.562 INFO: Index files: index.html,index.php
+- 09:11:57.562 INFO: CGI interpreter: C:\xampp\htdocs\Morf TPV\php\php-cgi.exe
+- 09:11:57.562 INFO: CGI pattern: **.php$
+- 09:11:57.562 INFO: Hide files patterns: 
+- 09:11:57.562 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 09:11:57.578 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:11:57.671 INFO: Web server url: http://127.0.0.1:65476/
+- 09:11:57.687 INFO: remote_debugging_port = 61717
+- 09:11:58.953 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --remote-debugging-port=61717
+- 09:12:02.016 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --service-request-channel-token=546A60CF065E6A54990E6C67AE24B9E1 --mojo-platform-channel-handle=1812 /prefetch:2
+- 09:12:03.671 DEBUG: App::OnContextInitialized()
+- 09:12:03.671 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 09:12:03.734 DEBUG: Window max width/height = 1842/1034
+- 09:12:03.734 DEBUG: GetBrowserWindow(): not found, hwnd = 263308
+- 09:12:03.734 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:12:03.734 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:12:03.750 DEBUG: StoreBrowserWindow(): hwnd = 263308
+- 09:12:05.906 DEBUG: ClientHandler::OnAfterCreated()
+- 09:12:05.906 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0229/091206.024:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:12:06.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B2E6FD8F22B876DA3B072B8FF3E3C62E --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B2E6FD8F22B876DA3B072B8FF3E3C62E --renderer-client-id=3 --mojo-platform-channel-handle=2312 /prefetch:1
+- 09:12:06.218 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:12:07.563 DEBUG: OnBrowserCreated()
+[0229/091208.386:ERROR:backend_impl.cc(1033)] Critical error found -8
+- 09:12:09.578 INFO: GET 200 /
+[0229/091209.673:WARNING:storage_block-inl.h(131)] Failed data load.
+[0229/091209.673:WARNING:storage_block-inl.h(131)] Failed data load.
+[0229/091209.673:WARNING:storage_block-inl.h(131)] Failed data load.
+[0229/091209.688:WARNING:storage_block-inl.h(131)] Failed data load.
+[0229/091209.720:ERROR:entry_impl.cc(964)] Failed to save user data
+[0229/091209.720:ERROR:entry_impl.cc(964)] Failed to save user data
+- 09:12:09.843 INFO: GET 200 /css/style.css
+- 09:12:09.890 INFO: GET 200 /encabezado.html
+- 09:12:10.593 INFO: GET 404 /img/logoMorf.jpg
+- 09:12:10.609 INFO: GET 200 /css/styleEncabezado.css
+- 09:12:11.875 DEBUG: OnContextCreated()
+- 09:12:12.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65476/
+- 09:12:21.687 DEBUG: OnBeforeClose() hwnd=197794
+- 09:12:21.687 DEBUG: RemoveBrowserWindow(): hwnd = 197794
+- 09:12:21.687 DEBUG: GetBrowserWindow(): not found, hwnd = 197794
+- 09:12:21.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:43:17.109 INFO: --------------------------------------------------------
+- 09:43:17.109 INFO: Started application
+- 09:43:17.109 INFO: Logging to: C:\xampp\htdocs\Morf TPV\debug.log
+- 09:43:17.109 INFO: Log level = DEBUG4
+- 09:43:17.125 INFO: Starting Mongoose 3.9c web server
+- 09:43:17.125 INFO: WWW directory: C:\xampp\htdocs\Morf TPV\www
+- 09:43:17.125 INFO: Index files: index.html,index.php
+- 09:43:17.125 INFO: CGI interpreter: C:\xampp\htdocs\Morf TPV\php\php-cgi.exe
+- 09:43:17.125 INFO: CGI pattern: **.php$
+- 09:43:17.125 INFO: Hide files patterns: 
+- 09:43:17.125 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ETIQUE~1\AppData\Local\Temp\
+- 09:43:17.125 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:43:17.141 INFO: Web server url: http://127.0.0.1:61531/
+- 09:43:17.156 INFO: remote_debugging_port = 64808
+- 09:43:17.156 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --remote-debugging-port=64808
+- 09:43:18.625 DEBUG: App::OnContextInitialized()
+- 09:43:18.625 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 09:43:18.625 DEBUG: Window max width/height = 1842/1034
+- 09:43:18.625 DEBUG: GetBrowserWindow(): not found, hwnd = 656758
+- 09:43:18.625 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:43:18.625 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:43:18.625 DEBUG: StoreBrowserWindow(): hwnd = 656758
+- 09:43:18.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --gpu-driver-date=9-29-2016 --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --service-request-channel-token=561A0BBCD2A3A2BDE6DC30F507535BCD --mojo-platform-channel-handle=1808 /prefetch:2
+- 09:43:18.953 DEBUG: ClientHandler::OnAfterCreated()
+- 09:43:18.953 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:43:18.969 DEBUG: OnLoadingStateChange: loading=1, url=
+[0229/094318.559:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:43:18.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\Morf TPV\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=272FBCDBB655A473FD0D1FF50761A3E2 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\Morf TPV\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=272FBCDBB655A473FD0D1FF50761A3E2 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+- 09:43:18.047 DEBUG: OnBrowserCreated()
+- 09:43:21.781 INFO: GET 200 /
+- 09:43:21.797 INFO: GET 200 /css/style.css
+- 09:43:21.813 INFO: GET 200 /encabezado.html
+- 09:43:21.859 INFO: GET 404 /img/logoMorf.jpg
+- 09:43:21.828 DEBUG: OnContextCreated()
+- 09:43:21.906 INFO: GET 200 /css/styleEncabezado.css
+- 09:43:21.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 09:44:14.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 09:44:14.891 INFO: GET 404 /index.php
+- 09:44:14.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 09:44:19.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 09:44:19.875 DEBUG: OnContextCreated()
+- 09:44:19.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:04:11.781 DEBUG: F5 pressed, reloading page
+- 10:04:11.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:04:11.797 INFO: GET 200 /
+- 10:04:11.844 INFO: GET 200 /css/style.css
+- 10:04:11.859 INFO: GET 200 /encabezado.html
+- 10:04:11.875 INFO: GET 200 /css/styleEncabezado.css
+- 10:04:11.875 INFO: GET 404 /img/logoMorf.jpg
+- 10:04:11.828 DEBUG: OnContextCreated()
+- 10:04:11.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:04:19.469 DEBUG: F5 pressed, reloading page
+- 10:04:19.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:04:20.469 INFO: GET 200 /
+- 10:04:20.484 INFO: GET 200 /css/style.css
+- 10:04:20.500 INFO: GET 200 /encabezado.html
+- 10:04:20.516 INFO: GET 200 /css/styleEncabezado.css
+- 10:04:20.516 INFO: GET 404 /img/logoMorf.jpg
+- 10:04:20.469 DEBUG: OnContextCreated()
+- 10:04:20.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:05:06.422 DEBUG: F5 pressed, reloading page
+- 10:05:06.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:05:06.422 INFO: GET 200 /
+- 10:05:06.453 INFO: GET 200 /css/style.css
+- 10:05:06.453 INFO: GET 200 /encabezado.html
+- 10:05:06.469 INFO: GET 200 /css/styleEncabezado.css
+- 10:05:06.469 INFO: GET 404 /img/logoMorf.jpg
+- 10:05:06.422 DEBUG: OnContextCreated()
+- 10:05:07.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:05:25.688 DEBUG: F5 pressed, reloading page
+- 10:05:25.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:05:25.688 INFO: GET 200 /
+- 10:05:25.703 INFO: GET 200 /css/style.css
+- 10:05:25.703 INFO: GET 200 /encabezado.html
+- 10:05:25.719 INFO: GET 200 /css/styleEncabezado.css
+- 10:05:25.719 INFO: GET 404 /img/logoMorf.jpg
+- 10:05:25.672 DEBUG: OnContextCreated()
+- 10:05:25.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:05:48.750 DEBUG: F5 pressed, reloading page
+- 10:05:48.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:05:48.750 INFO: GET 200 /
+- 10:05:48.766 INFO: GET 200 /css/style.css
+- 10:05:48.781 INFO: GET 200 /encabezado.html
+- 10:05:48.781 INFO: GET 200 /css/styleEncabezado.css
+- 10:05:48.781 INFO: GET 404 /img/logoMorf.jpg
+- 10:05:48.750 DEBUG: OnContextCreated()
+- 10:05:48.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:06:17.547 DEBUG: F5 pressed, reloading page
+- 10:06:17.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:06:17.563 INFO: GET 200 /
+- 10:06:17.578 INFO: GET 200 /css/style.css
+- 10:06:17.578 INFO: GET 200 /encabezado.html
+- 10:06:17.594 INFO: GET 200 /css/styleEncabezado.css
+- 10:06:17.594 INFO: GET 404 /img/logoMorf.jpg
+- 10:06:17.562 DEBUG: OnContextCreated()
+- 10:06:17.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:07:21.109 DEBUG: F5 pressed, reloading page
+- 10:07:21.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:07:21.125 INFO: GET 200 /
+- 10:07:21.141 INFO: GET 200 /css/style.css
+- 10:07:21.156 INFO: GET 200 /encabezado.html
+- 10:07:21.156 INFO: GET 200 /css/styleEncabezado.css
+- 10:07:21.156 INFO: GET 404 /img/logoMorf.jpg
+- 10:07:21.125 DEBUG: OnContextCreated()
+- 10:07:21.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:07:46.313 DEBUG: F5 pressed, reloading page
+- 10:07:46.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:07:46.328 INFO: GET 200 /
+- 10:07:46.359 INFO: GET 200 /css/style.css
+- 10:07:46.359 INFO: GET 200 /encabezado.html
+- 10:07:46.375 INFO: GET 200 /css/styleEncabezado.css
+- 10:07:46.375 INFO: GET 404 /img/logoMorf.jpg
+- 10:07:46.328 DEBUG: OnContextCreated()
+- 10:07:46.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:19:48.813 DEBUG: F5 pressed, reloading page
+- 10:19:48.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:19:48.813 INFO: GET 200 /
+- 10:19:48.844 INFO: GET 200 /css/style.css
+- 10:19:48.844 INFO: GET 200 /encabezado.html
+- 10:19:48.859 INFO: GET 404 /img/logoMorf.jpg
+- 10:19:48.859 INFO: GET 200 /css/styleEncabezado.css
+- 10:19:48.812 DEBUG: OnContextCreated()
+- 10:19:48.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:19:53.969 DEBUG: F5 pressed, reloading page
+- 10:19:53.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:19:53.984 INFO: GET 200 /
+- 10:19:53.000 INFO: GET 200 /css/style.css
+- 10:19:53.000 INFO: GET 200 /encabezado.html
+- 10:19:53.016 INFO: GET 200 /css/styleEncabezado.css
+- 10:19:53.016 INFO: GET 200 /img/logoMorf.png
+- 10:19:53.969 DEBUG: OnContextCreated()
+- 10:19:53.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:20:01.203 DEBUG: F5 pressed, reloading page
+- 10:20:01.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:20:01.219 INFO: GET 200 /
+- 10:20:01.250 INFO: GET 200 /css/style.css
+- 10:20:01.250 INFO: GET 200 /encabezado.html
+- 10:20:01.266 INFO: GET 200 /css/styleEncabezado.css
+- 10:20:01.266 INFO: GET 200 /img/logoMorf.png
+- 10:20:01.234 DEBUG: OnContextCreated()
+- 10:20:01.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:20:18.344 DEBUG: F5 pressed, reloading page
+- 10:20:18.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:20:18.344 INFO: GET 200 /
+- 10:20:18.359 INFO: GET 200 /css/style.css
+- 10:20:18.359 INFO: GET 200 /encabezado.html
+- 10:20:18.391 INFO: GET 200 /css/styleEncabezado.css
+- 10:20:18.391 INFO: GET 200 /img/logoMorf.png
+- 10:20:18.359 DEBUG: OnContextCreated()
+- 10:20:18.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:20:39.625 DEBUG: F5 pressed, reloading page
+- 10:20:39.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:20:39.625 INFO: GET 200 /
+- 10:20:39.641 INFO: GET 200 /css/style.css
+- 10:20:39.641 INFO: GET 200 /encabezado.html
+- 10:20:39.656 INFO: GET 200 /css/styleEncabezado.css
+- 10:20:39.656 INFO: GET 200 /img/logoMorf.png
+- 10:20:39.703 DEBUG: OnContextCreated()
+- 10:20:39.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:20:46.047 DEBUG: F5 pressed, reloading page
+- 10:20:46.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:20:46.047 INFO: GET 200 /
+- 10:20:46.078 INFO: GET 200 /css/style.css
+- 10:20:46.078 INFO: GET 200 /encabezado.html
+- 10:20:46.094 INFO: GET 200 /css/styleEncabezado.css
+- 10:20:46.094 INFO: GET 200 /img/logoMorf.png
+- 10:20:46.062 DEBUG: OnContextCreated()
+- 10:20:46.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:01.500 DEBUG: F5 pressed, reloading page
+- 10:21:01.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:01.500 INFO: GET 200 /
+- 10:21:01.531 INFO: GET 200 /css/style.css
+- 10:21:01.531 INFO: GET 200 /encabezado.html
+- 10:21:01.547 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:01.547 INFO: GET 200 /img/logoMorf.png
+- 10:21:01.516 DEBUG: OnContextCreated()
+- 10:21:01.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:30.375 DEBUG: F5 pressed, reloading page
+- 10:21:30.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:30.375 INFO: GET 200 /
+- 10:21:30.391 INFO: GET 200 /css/style.css
+- 10:21:30.391 INFO: GET 200 /encabezado.html
+- 10:21:30.406 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:30.406 INFO: GET 200 /img/logoMorf.png
+- 10:21:30.359 DEBUG: OnContextCreated()
+- 10:21:30.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:35.000 DEBUG: F5 pressed, reloading page
+- 10:21:35.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:35.016 INFO: GET 200 /
+- 10:21:35.031 INFO: GET 200 /css/style.css
+- 10:21:35.047 INFO: GET 200 /encabezado.html
+- 10:21:35.063 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:35.063 INFO: GET 200 /img/logoMorf.png
+- 10:21:35.016 DEBUG: OnContextCreated()
+- 10:21:35.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:39.016 DEBUG: F5 pressed, reloading page
+- 10:21:39.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:39.031 INFO: GET 200 /
+- 10:21:39.047 INFO: GET 200 /css/style.css
+- 10:21:39.047 INFO: GET 200 /encabezado.html
+- 10:21:39.063 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:39.063 INFO: GET 200 /img/logoMorf.png
+- 10:21:39.031 DEBUG: OnContextCreated()
+- 10:21:39.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:43.813 DEBUG: F5 pressed, reloading page
+- 10:21:43.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:43.813 INFO: GET 200 /
+- 10:21:43.844 INFO: GET 200 /css/style.css
+- 10:21:43.844 INFO: GET 200 /encabezado.html
+- 10:21:43.859 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:43.859 INFO: GET 200 /img/logoMorf.png
+- 10:21:43.828 DEBUG: OnContextCreated()
+- 10:21:43.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:48.641 DEBUG: F5 pressed, reloading page
+- 10:21:48.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:48.641 INFO: GET 200 /
+- 10:21:48.672 INFO: GET 200 /css/style.css
+- 10:21:48.672 INFO: GET 200 /encabezado.html
+- 10:21:48.672 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:48.672 INFO: GET 200 /img/logoMorf.png
+- 10:21:48.641 DEBUG: OnContextCreated()
+- 10:21:48.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:54.578 DEBUG: F5 pressed, reloading page
+- 10:21:54.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:54.578 INFO: GET 200 /
+- 10:21:54.594 INFO: GET 200 /css/style.css
+- 10:21:54.609 INFO: GET 200 /encabezado.html
+- 10:21:54.609 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:54.609 INFO: GET 200 /img/logoMorf.png
+- 10:21:54.562 DEBUG: OnContextCreated()
+- 10:21:54.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:21:58.297 DEBUG: F5 pressed, reloading page
+- 10:21:58.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:21:58.313 INFO: GET 200 /
+- 10:21:58.328 INFO: GET 200 /css/style.css
+- 10:21:58.344 INFO: GET 200 /encabezado.html
+- 10:21:58.344 INFO: GET 200 /css/styleEncabezado.css
+- 10:21:58.344 INFO: GET 200 /img/logoMorf.png
+- 10:21:58.328 DEBUG: OnContextCreated()
+- 10:21:58.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:01.078 DEBUG: F5 pressed, reloading page
+- 10:22:01.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:01.094 INFO: GET 200 /
+- 10:22:01.109 INFO: GET 200 /css/style.css
+- 10:22:01.109 INFO: GET 200 /encabezado.html
+- 10:22:01.125 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:01.125 INFO: GET 200 /img/logoMorf.png
+- 10:22:01.094 DEBUG: OnContextCreated()
+- 10:22:01.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:09.766 DEBUG: F5 pressed, reloading page
+- 10:22:09.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:09.766 INFO: GET 200 /
+- 10:22:09.781 INFO: GET 200 /css/style.css
+- 10:22:09.781 INFO: GET 200 /encabezado.html
+- 10:22:09.797 INFO: GET 200 /img/logoMorf.png
+- 10:22:09.797 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:09.766 DEBUG: OnContextCreated()
+- 10:22:09.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:11.188 DEBUG: F5 pressed, reloading page
+- 10:22:11.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:11.188 INFO: GET 200 /
+- 10:22:11.219 INFO: GET 200 /css/style.css
+- 10:22:11.219 INFO: GET 200 /encabezado.html
+- 10:22:11.234 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:11.234 INFO: GET 200 /img/logoMorf.png
+- 10:22:11.203 DEBUG: OnContextCreated()
+- 10:22:11.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:18.734 DEBUG: F5 pressed, reloading page
+- 10:22:18.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:18.750 INFO: GET 200 /
+- 10:22:18.766 INFO: GET 200 /css/style.css
+- 10:22:18.781 INFO: GET 200 /encabezado.html
+- 10:22:18.797 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:18.797 INFO: GET 200 /img/logoMorf.png
+- 10:22:18.766 DEBUG: OnContextCreated()
+- 10:22:18.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:24.031 DEBUG: F5 pressed, reloading page
+- 10:22:24.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:24.047 INFO: GET 200 /
+- 10:22:24.063 INFO: GET 200 /css/style.css
+- 10:22:24.078 INFO: GET 200 /encabezado.html
+- 10:22:24.078 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:24.078 INFO: GET 200 /img/logoMorf.png
+- 10:22:24.047 DEBUG: OnContextCreated()
+- 10:22:24.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:29.172 DEBUG: F5 pressed, reloading page
+- 10:22:29.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:29.188 INFO: GET 200 /
+- 10:22:29.203 INFO: GET 200 /css/style.css
+- 10:22:29.203 INFO: GET 200 /encabezado.html
+- 10:22:29.219 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:29.219 INFO: GET 200 /img/logoMorf.png
+- 10:22:29.187 DEBUG: OnContextCreated()
+- 10:22:29.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:22:39.813 DEBUG: F5 pressed, reloading page
+- 10:22:39.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:22:39.813 INFO: GET 200 /
+- 10:22:39.828 INFO: GET 200 /css/style.css
+- 10:22:39.844 INFO: GET 200 /encabezado.html
+- 10:22:39.859 INFO: GET 200 /css/styleEncabezado.css
+- 10:22:39.859 INFO: GET 200 /img/logoMorf.png
+- 10:22:39.828 DEBUG: OnContextCreated()
+- 10:22:39.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:29:46.391 DEBUG: F5 pressed, reloading page
+- 10:29:46.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:29:46.391 INFO: GET 200 /
+- 10:29:46.422 INFO: GET 200 /css/style.css
+- 10:29:46.438 INFO: GET 200 /encabezado.html
+- 10:29:46.438 INFO: GET 200 /css/styleEncabezado.css
+- 10:29:46.438 INFO: GET 200 /img/logoMorf.png
+- 10:29:46.406 DEBUG: OnContextCreated()
+- 10:29:46.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:29:54.656 DEBUG: F5 pressed, reloading page
+- 10:29:54.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:29:54.672 INFO: GET 200 /
+- 10:29:54.688 INFO: GET 200 /css/style.css
+- 10:29:54.719 INFO: GET 200 /img/logoMorf.png
+- 10:29:54.719 INFO: GET 200 /css/styleEncabezado.css
+- 10:29:54.719 INFO: GET 200 /encabezado.html
+- 10:29:54.687 DEBUG: OnContextCreated()
+- 10:29:54.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:29:58.391 DEBUG: F5 pressed, reloading page
+- 10:29:58.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:29:58.406 INFO: GET 200 /
+- 10:29:58.406 INFO: GET 200 /css/style.css
+- 10:29:58.422 INFO: GET 200 /encabezado.html
+- 10:29:58.438 INFO: GET 200 /css/styleEncabezado.css
+- 10:29:58.438 INFO: GET 200 /img/logoMorf.png
+- 10:29:58.406 DEBUG: OnContextCreated()
+- 10:29:58.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:30:02.953 DEBUG: F5 pressed, reloading page
+- 10:30:02.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:30:02.969 INFO: GET 200 /
+- 10:30:02.984 INFO: GET 200 /css/style.css
+- 10:30:02.984 INFO: GET 200 /encabezado.html
+- 10:30:02.000 INFO: GET 200 /css/styleEncabezado.css
+- 10:30:02.000 INFO: GET 200 /img/logoMorf.png
+- 10:30:02.969 DEBUG: OnContextCreated()
+- 10:30:02.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:30:05.438 DEBUG: F5 pressed, reloading page
+- 10:30:05.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:30:05.453 INFO: GET 200 /
+- 10:30:05.469 INFO: GET 200 /css/style.css
+- 10:30:06.484 INFO: GET 200 /encabezado.html
+- 10:30:06.500 INFO: GET 200 /css/styleEncabezado.css
+- 10:30:06.500 INFO: GET 200 /img/logoMorf.png
+- 10:30:06.453 DEBUG: OnContextCreated()
+- 10:30:06.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:30:31.203 DEBUG: F5 pressed, reloading page
+- 10:30:31.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:30:31.203 INFO: GET 200 /
+- 10:30:31.234 INFO: GET 200 /css/style.css
+- 10:30:31.234 INFO: GET 200 /encabezado.html
+- 10:30:31.266 INFO: GET 200 /css/styleEncabezado.css
+- 10:30:31.266 INFO: GET 200 /img/logoMorf.png
+- 10:30:31.234 DEBUG: OnContextCreated()
+- 10:30:31.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:30:43.328 DEBUG: F5 pressed, reloading page
+- 10:30:43.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:30:43.344 INFO: GET 200 /
+- 10:30:43.359 INFO: GET 200 /css/style.css
+- 10:30:43.359 INFO: GET 200 /encabezado.html
+- 10:30:43.375 INFO: GET 200 /css/styleEncabezado.css
+- 10:30:43.375 INFO: GET 200 /img/logoMorf.png
+- 10:30:43.344 DEBUG: OnContextCreated()
+- 10:30:43.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:30:47.922 DEBUG: F5 pressed, reloading page
+- 10:30:47.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:30:47.922 INFO: GET 200 /
+- 10:30:47.953 INFO: GET 200 /css/style.css
+- 10:30:47.969 INFO: GET 200 /encabezado.html
+- 10:30:47.984 INFO: GET 200 /img/logoMorf.png
+- 10:30:47.984 INFO: GET 200 /css/styleEncabezado.css
+- 10:30:47.937 DEBUG: OnContextCreated()
+- 10:30:47.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:31:13.656 DEBUG: F5 pressed, reloading page
+- 10:31:13.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:31:13.672 INFO: GET 200 /
+- 10:31:13.688 INFO: GET 200 /css/style.css
+- 10:31:13.703 INFO: GET 200 /encabezado.html
+- 10:31:13.703 INFO: GET 200 /css/styleEncabezado.css
+- 10:31:13.703 INFO: GET 200 /img/logoMorf.png
+- 10:31:13.672 DEBUG: OnContextCreated()
+- 10:31:13.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:45:38.094 DEBUG: F5 pressed, reloading page
+- 10:45:38.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:45:38.094 INFO: GET 200 /
+- 10:45:38.125 INFO: GET 200 /css/style.css
+- 10:45:38.125 INFO: GET 200 /encabezado.html
+- 10:45:38.141 INFO: GET 200 /css/styleEncabezado.css
+- 10:45:38.141 INFO: GET 200 /img/logoMorf.jpg
+- 10:45:38.109 DEBUG: OnContextCreated()
+- 10:45:38.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:46:20.719 DEBUG: F5 pressed, reloading page
+- 10:46:20.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:46:20.734 INFO: GET 200 /
+- 10:46:20.750 INFO: GET 200 /css/style.css
+- 10:46:20.766 INFO: GET 200 /encabezado.html
+- 10:46:20.781 INFO: GET 200 /css/styleEncabezado.css
+- 10:46:20.781 INFO: GET 200 /img/logoMorf.png
+- 10:46:20.734 DEBUG: OnContextCreated()
+- 10:46:20.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:52:04.344 DEBUG: F5 pressed, reloading page
+- 10:52:04.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:52:04.359 INFO: GET 200 /
+- 10:52:04.375 INFO: GET 200 /css/style.css
+- 10:52:04.375 INFO: GET 200 /encabezado.html
+- 10:52:04.406 INFO: GET 200 /css/styleEncabezado.css
+- 10:52:04.406 INFO: GET 200 /img/logoMorf.png
+- 10:52:04.359 DEBUG: OnContextCreated()
+- 10:52:04.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:54:51.250 DEBUG: F5 pressed, reloading page
+- 10:54:51.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:54:51.250 INFO: GET 200 /
+- 10:54:51.266 INFO: GET 200 /css/style.css
+- 10:54:51.281 INFO: GET 200 /encabezado.html
+- 10:54:51.250 DEBUG: OnContextCreated()
+- 10:54:51.281 INFO: GET 200 /css/styleEncabezado.css
+- 10:54:51.297 INFO: GET 200 /img/logoMorf.png
+- 10:54:51.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:55:08.141 DEBUG: F5 pressed, reloading page
+- 10:55:08.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:55:08.156 INFO: GET 200 /
+- 10:55:08.172 INFO: GET 200 /css/style.css
+- 10:55:08.172 INFO: GET 200 /encabezado.html
+- 10:55:08.188 INFO: GET 200 /css/styleEncabezado.css
+- 10:55:08.188 INFO: GET 200 /img/logoMorf.png
+- 10:55:08.156 DEBUG: OnContextCreated()
+- 10:55:08.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:55:30.922 DEBUG: F5 pressed, reloading page
+- 10:55:30.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:55:30.938 INFO: GET 200 /
+- 10:55:30.969 INFO: GET 200 /css/style.css
+- 10:55:30.969 INFO: GET 200 /encabezado.html
+- 10:55:30.969 INFO: GET 200 /css/styleEncabezado.css
+- 10:55:30.969 INFO: GET 200 /img/logoMorf.png
+- 10:55:30.937 DEBUG: OnContextCreated()
+- 10:55:30.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:55:38.250 DEBUG: F5 pressed, reloading page
+- 10:55:38.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:55:38.250 INFO: GET 200 /
+- 10:55:38.266 INFO: GET 200 /css/style.css
+- 10:55:38.266 INFO: GET 200 /encabezado.html
+- 10:55:38.266 INFO: GET 200 /css/styleEncabezado.css
+- 10:55:38.266 INFO: GET 200 /img/logoMorf.png
+- 10:55:38.234 DEBUG: OnContextCreated()
+- 10:55:38.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:55:45.813 DEBUG: F5 pressed, reloading page
+- 10:55:45.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:55:45.813 INFO: GET 200 /
+- 10:55:45.813 INFO: GET 200 /css/style.css
+- 10:55:45.828 INFO: GET 200 /encabezado.html
+- 10:55:45.828 INFO: GET 200 /css/styleEncabezado.css
+- 10:55:45.828 INFO: GET 200 /img/logoMorf.png
+- 10:55:45.797 DEBUG: OnContextCreated()
+- 10:55:45.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:55:52.281 DEBUG: F5 pressed, reloading page
+- 10:55:52.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:55:52.281 INFO: GET 200 /
+- 10:55:52.297 INFO: GET 200 /css/style.css
+- 10:55:52.313 INFO: GET 200 /encabezado.html
+- 10:55:52.328 INFO: GET 200 /css/styleEncabezado.css
+- 10:55:52.328 INFO: GET 200 /img/logoMorf.png
+- 10:55:52.297 DEBUG: OnContextCreated()
+- 10:55:52.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:56:23.266 INFO: GET 200 /
+- 10:56:24.547 INFO: GET 200 /css/style.css
+- 10:56:24.547 INFO: GET 200 /encabezado.html
+- 10:56:24.609 INFO: GET 200 /css/styleEncabezado.css
+- 10:56:24.672 INFO: GET 200 /img/logoMorf.png
+- 10:56:24.422 INFO: GET 404 /favicon.ico
+- 10:56:54.141 DEBUG: F5 pressed, reloading page
+- 10:56:54.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:56:54.156 INFO: GET 200 /
+- 10:56:54.172 INFO: GET 200 /css/style.css
+- 10:56:54.188 INFO: GET 200 /encabezado.html
+- 10:56:54.188 INFO: GET 200 /css/styleEncabezado.css
+- 10:56:54.203 INFO: GET 200 /img/logoMorf.png
+- 10:56:54.172 DEBUG: OnContextCreated()
+- 10:56:54.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:56:59.266 DEBUG: F5 pressed, reloading page
+- 10:56:59.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:56:59.266 INFO: GET 200 /
+- 10:56:59.281 INFO: GET 200 /css/style.css
+- 10:56:59.281 INFO: GET 200 /encabezado.html
+- 10:56:59.297 INFO: GET 200 /css/styleEncabezado.css
+- 10:56:59.297 INFO: GET 200 /img/logoMorf.png
+- 10:56:59.266 DEBUG: OnContextCreated()
+- 10:56:59.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:57:25.344 DEBUG: F5 pressed, reloading page
+- 10:57:25.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:57:25.359 INFO: GET 200 /
+- 10:57:25.375 INFO: GET 200 /css/style.css
+- 10:57:25.391 INFO: GET 200 /encabezado.html
+- 10:57:25.406 INFO: GET 200 /css/styleEncabezado.css
+- 10:57:25.406 INFO: GET 200 /img/logoMorf.png
+- 10:57:25.359 DEBUG: OnContextCreated()
+- 10:57:25.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:57:31.047 DEBUG: F5 pressed, reloading page
+- 10:57:31.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:57:31.063 INFO: GET 200 /
+- 10:57:31.078 INFO: GET 200 /css/style.css
+- 10:57:31.094 INFO: GET 200 /encabezado.html
+- 10:57:31.109 INFO: GET 200 /css/styleEncabezado.css
+- 10:57:31.109 INFO: GET 200 /img/logoMorf.png
+- 10:57:31.078 DEBUG: OnContextCreated()
+- 10:57:31.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:57:42.094 DEBUG: F5 pressed, reloading page
+- 10:57:42.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:57:42.109 INFO: GET 200 /
+- 10:57:42.125 INFO: GET 200 /css/style.css
+- 10:57:42.141 INFO: GET 200 /encabezado.html
+- 10:57:42.141 INFO: GET 200 /css/styleEncabezado.css
+- 10:57:42.141 INFO: GET 200 /img/logoMorf.png
+- 10:57:42.156 DEBUG: OnContextCreated()
+- 10:57:42.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:57:48.250 DEBUG: F5 pressed, reloading page
+- 10:57:48.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:57:48.250 INFO: GET 200 /
+- 10:57:48.266 INFO: GET 200 /css/style.css
+- 10:57:48.281 INFO: GET 200 /encabezado.html
+- 10:57:48.297 INFO: GET 200 /img/logoMorf.png
+- 10:57:48.297 INFO: GET 200 /css/styleEncabezado.css
+- 10:57:48.266 DEBUG: OnContextCreated()
+- 10:57:48.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:58:02.813 DEBUG: F5 pressed, reloading page
+- 10:58:02.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:58:02.813 INFO: GET 200 /
+- 10:58:02.828 INFO: GET 200 /css/style.css
+- 10:58:02.828 INFO: GET 200 /encabezado.html
+- 10:58:02.844 INFO: GET 200 /css/styleEncabezado.css
+- 10:58:02.844 INFO: GET 200 /img/logoMorf.png
+- 10:58:02.797 DEBUG: OnContextCreated()
+- 10:58:02.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:58:26.766 DEBUG: F5 pressed, reloading page
+- 10:58:26.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:58:26.781 INFO: GET 200 /
+- 10:58:26.797 INFO: GET 200 /css/style.css
+- 10:58:26.813 INFO: GET 200 /encabezado.html
+- 10:58:26.828 INFO: GET 200 /css/styleEncabezado.css
+- 10:58:26.828 INFO: GET 200 /img/logoMorf.png
+- 10:58:26.781 DEBUG: OnContextCreated()
+- 10:58:26.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:58:36.563 DEBUG: F5 pressed, reloading page
+- 10:58:36.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:58:36.578 INFO: GET 200 /
+- 10:58:36.594 INFO: GET 200 /css/style.css
+- 10:58:36.594 INFO: GET 200 /encabezado.html
+- 10:58:36.609 INFO: GET 200 /css/styleEncabezado.css
+- 10:58:36.609 INFO: GET 200 /img/logoMorf.png
+- 10:58:36.578 DEBUG: OnContextCreated()
+- 10:58:36.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 10:58:40.125 DEBUG: F5 pressed, reloading page
+- 10:58:40.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 10:58:40.141 INFO: GET 200 /
+- 10:58:40.156 INFO: GET 200 /css/style.css
+- 10:58:40.172 INFO: GET 200 /encabezado.html
+- 10:58:40.203 INFO: GET 200 /css/styleEncabezado.css
+- 10:58:40.203 INFO: GET 200 /img/logoMorf.png
+- 10:58:40.156 DEBUG: OnContextCreated()
+- 10:58:40.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:17:26.141 DEBUG: F5 pressed, reloading page
+- 11:17:26.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:17:26.156 INFO: GET 200 /
+- 11:17:26.188 INFO: GET 200 /css/style.css
+- 11:17:26.188 INFO: GET 200 /encabezado.html
+- 11:17:26.203 INFO: GET 200 /css/styleEncabezado.css
+- 11:17:26.172 DEBUG: OnContextCreated()
+- 11:17:26.219 INFO: GET 200 /img/logoMorf.png
+- 11:17:26.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:18:15.594 DEBUG: F5 pressed, reloading page
+- 11:18:15.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:18:15.609 INFO: GET 200 /
+- 11:18:15.641 INFO: GET 200 /css/style.css
+- 11:18:15.656 INFO: GET 200 /encabezado.html
+- 11:18:15.656 INFO: GET 200 /css/styleEncabezado.css
+- 11:18:15.656 INFO: GET 200 /img/logoMorf.png
+- 11:18:15.625 DEBUG: OnContextCreated()
+- 11:18:15.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:19:00.297 DEBUG: F5 pressed, reloading page
+- 11:19:00.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:19:00.313 INFO: GET 200 /
+- 11:19:00.313 INFO: GET 200 /css/style.css
+- 11:19:00.313 INFO: GET 200 /encabezado.html
+- 11:19:00.328 INFO: GET 200 /img/logoMorf.png
+- 11:19:00.328 INFO: GET 200 /css/styleEncabezado.css
+- 11:19:00.297 DEBUG: OnContextCreated()
+- 11:19:00.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:19:41.844 DEBUG: F5 pressed, reloading page
+- 11:19:41.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:19:41.844 INFO: GET 200 /
+- 11:19:41.859 INFO: GET 200 /css/style.css
+- 11:19:41.859 INFO: GET 200 /encabezado.html
+- 11:19:41.875 INFO: GET 200 /css/styleEncabezado.css
+- 11:19:41.875 INFO: GET 200 /img/logoMorf.png
+- 11:19:41.828 DEBUG: OnContextCreated()
+- 11:19:41.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:20:04.578 DEBUG: F5 pressed, reloading page
+- 11:20:04.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:20:04.594 INFO: GET 200 /
+- 11:20:04.625 INFO: GET 200 /css/style.css
+- 11:20:04.625 INFO: GET 200 /encabezado.html
+- 11:20:04.641 INFO: GET 200 /css/styleEncabezado.css
+- 11:20:04.641 INFO: GET 200 /img/logoMorf.png
+- 11:20:04.594 DEBUG: OnContextCreated()
+- 11:20:04.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:23:45.453 DEBUG: F5 pressed, reloading page
+- 11:23:45.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:23:45.453 INFO: GET 200 /
+- 11:23:45.469 INFO: GET 200 /css/style.css
+- 11:23:46.469 INFO: GET 200 /encabezado.html
+- 11:23:46.484 INFO: GET 200 /css/styleEncabezado.css
+- 11:23:46.484 INFO: GET 200 /img/logoMorf.png
+- 11:23:46.453 DEBUG: OnContextCreated()
+- 11:23:46.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:24:21.125 DEBUG: F5 pressed, reloading page
+- 11:24:21.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:24:21.141 INFO: GET 200 /
+- 11:24:21.172 INFO: GET 200 /css/style.css
+- 11:24:21.172 INFO: GET 200 /encabezado.html
+- 11:24:21.188 INFO: GET 200 /css/styleEncabezado.css
+- 11:24:21.188 INFO: GET 200 /img/logoMorf.png
+- 11:24:21.156 DEBUG: OnContextCreated()
+- 11:24:21.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:24:37.422 DEBUG: F5 pressed, reloading page
+- 11:24:37.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:24:37.422 INFO: GET 200 /
+- 11:24:37.453 INFO: GET 200 /css/style.css
+- 11:24:37.453 INFO: GET 200 /encabezado.html
+- 11:24:37.469 INFO: GET 200 /css/styleEncabezado.css
+- 11:24:37.469 INFO: GET 200 /img/logoMorf.png
+- 11:24:38.437 DEBUG: OnContextCreated()
+- 11:24:38.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:24:38.781 DEBUG: F5 pressed, reloading page
+- 11:24:38.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:24:38.781 INFO: GET 200 /
+- 11:24:38.813 INFO: GET 200 /css/style.css
+- 11:24:38.813 INFO: GET 200 /encabezado.html
+- 11:24:38.813 INFO: GET 200 /css/styleEncabezado.css
+- 11:24:38.828 INFO: GET 200 /img/logoMorf.png
+- 11:24:38.781 DEBUG: OnContextCreated()
+- 11:24:38.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:24:38.984 DEBUG: F5 pressed, reloading page
+- 11:24:38.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:24:38.984 INFO: GET 200 /
+- 11:24:38.016 INFO: GET 200 /css/style.css
+- 11:24:38.016 INFO: GET 200 /encabezado.html
+- 11:24:38.031 INFO: GET 200 /css/styleEncabezado.css
+- 11:24:38.031 INFO: GET 200 /img/logoMorf.png
+- 11:24:38.000 DEBUG: OnContextCreated()
+- 11:24:38.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:24:38.125 DEBUG: F5 pressed, reloading page
+- 11:24:38.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:24:38.125 INFO: GET 200 /
+- 11:24:38.141 INFO: GET 200 /css/style.css
+- 11:24:38.141 INFO: GET 200 /encabezado.html
+- 11:24:38.141 INFO: GET 200 /css/styleEncabezado.css
+- 11:24:38.141 INFO: GET 200 /img/logoMorf.png
+- 11:24:38.109 DEBUG: OnContextCreated()
+- 11:24:38.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:27:01.359 DEBUG: F5 pressed, reloading page
+- 11:27:01.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:27:01.375 INFO: GET 200 /
+- 11:27:01.391 INFO: GET 200 /css/style.css
+- 11:27:01.391 INFO: GET 200 /encabezado.html
+- 11:27:01.406 INFO: GET 404 /css/img/caja.png
+- 11:27:01.438 INFO: GET 200 /css/styleEncabezado.css
+- 11:27:01.438 INFO: GET 200 /img/logoMorf.png
+- 11:27:01.391 DEBUG: OnContextCreated()
+- 11:27:01.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:27:22.984 DEBUG: F5 pressed, reloading page
+- 11:27:22.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:27:22.000 INFO: GET 200 /
+- 11:27:22.016 INFO: GET 200 /css/style.css
+- 11:27:22.016 INFO: GET 200 /encabezado.html
+- 11:27:22.031 INFO: GET 200 /css/styleEncabezado.css
+- 11:27:22.031 INFO: GET 200 /img/logoMorf.png
+- 11:27:22.000 DEBUG: OnContextCreated()
+- 11:27:22.078 INFO: GET 200 /img/caja.png
+- 11:27:22.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:27:36.719 DEBUG: F5 pressed, reloading page
+- 11:27:36.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:27:36.719 INFO: GET 200 /
+- 11:27:36.734 INFO: GET 200 /css/style.css
+- 11:27:36.734 INFO: GET 200 /encabezado.html
+- 11:27:36.734 INFO: GET 200 /img/caja.png
+- 11:27:36.750 INFO: GET 200 /css/styleEncabezado.css
+- 11:27:36.750 INFO: GET 200 /img/logoMorf.png
+- 11:27:36.719 DEBUG: OnContextCreated()
+- 11:27:36.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:27:46.531 DEBUG: F5 pressed, reloading page
+- 11:27:46.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:27:46.531 INFO: GET 200 /
+- 11:27:46.547 INFO: GET 200 /css/style.css
+- 11:27:46.547 INFO: GET 200 /encabezado.html
+- 11:27:46.547 INFO: GET 200 /img/caja.png
+- 11:27:46.563 INFO: GET 200 /css/styleEncabezado.css
+- 11:27:46.563 INFO: GET 200 /img/logoMorf.png
+- 11:27:46.531 DEBUG: OnContextCreated()
+- 11:27:46.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:27:50.531 DEBUG: F5 pressed, reloading page
+- 11:27:50.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:27:50.531 INFO: GET 200 /
+- 11:27:50.563 INFO: GET 200 /css/style.css
+- 11:27:50.578 INFO: GET 200 /encabezado.html
+- 11:27:50.578 INFO: GET 404 /css/img/caja.png
+- 11:27:50.594 INFO: GET 200 /css/styleEncabezado.css
+- 11:27:50.594 INFO: GET 200 /img/logoMorf.png
+- 11:27:50.547 DEBUG: OnContextCreated()
+- 11:27:50.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:15.578 DEBUG: F5 pressed, reloading page
+- 11:28:15.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:15.594 INFO: GET 200 /
+- 11:28:15.625 INFO: GET 200 /css/style.css
+- 11:28:15.641 INFO: GET 200 /encabezado.html
+- 11:28:15.641 INFO: GET 200 /img/caja.png
+- 11:28:15.719 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:15.719 INFO: GET 200 /img/logoMorf.png
+- 11:28:15.687 DEBUG: OnContextCreated()
+- 11:28:15.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:25.484 DEBUG: F5 pressed, reloading page
+- 11:28:25.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:25.500 INFO: GET 200 /
+- 11:28:25.516 INFO: GET 200 /css/style.css
+- 11:28:25.516 INFO: GET 200 /encabezado.html
+- 11:28:25.531 INFO: GET 200 /img/caja.png
+- 11:28:25.547 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:25.547 INFO: GET 200 /img/logoMorf.png
+- 11:28:25.594 DEBUG: OnContextCreated()
+- 11:28:25.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:34.953 DEBUG: F5 pressed, reloading page
+- 11:28:34.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:34.969 INFO: GET 200 /
+- 11:28:34.969 INFO: GET 200 /css/style.css
+- 11:28:34.969 INFO: GET 200 /encabezado.html
+- 11:28:34.984 INFO: GET 200 /img/caja.png
+- 11:28:34.984 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:34.000 INFO: GET 200 /img/logoMorf.png
+- 11:28:34.953 DEBUG: OnContextCreated()
+- 11:28:34.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:40.172 DEBUG: F5 pressed, reloading page
+- 11:28:40.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:40.188 INFO: GET 200 /
+- 11:28:40.219 INFO: GET 200 /css/style.css
+- 11:28:40.219 INFO: GET 200 /encabezado.html
+- 11:28:40.234 INFO: GET 200 /img/caja.png
+- 11:28:40.250 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:40.250 INFO: GET 200 /img/logoMorf.png
+- 11:28:40.219 DEBUG: OnContextCreated()
+- 11:28:40.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:46.250 DEBUG: F5 pressed, reloading page
+- 11:28:46.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:46.250 INFO: GET 200 /
+- 11:28:46.266 INFO: GET 200 /css/style.css
+- 11:28:46.266 INFO: GET 200 /encabezado.html
+- 11:28:46.266 INFO: GET 200 /img/caja.png
+- 11:28:46.281 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:46.281 INFO: GET 200 /img/logoMorf.png
+- 11:28:46.250 DEBUG: OnContextCreated()
+- 11:28:46.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:28:53.203 DEBUG: F5 pressed, reloading page
+- 11:28:53.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:28:53.203 INFO: GET 200 /
+- 11:28:53.234 INFO: GET 200 /css/style.css
+- 11:28:53.250 INFO: GET 200 /encabezado.html
+- 11:28:53.266 INFO: GET 200 /img/caja.png
+- 11:28:53.297 INFO: GET 200 /css/styleEncabezado.css
+- 11:28:53.297 INFO: GET 200 /img/logoMorf.png
+- 11:28:53.250 DEBUG: OnContextCreated()
+- 11:28:53.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:29:45.094 DEBUG: F5 pressed, reloading page
+- 11:29:45.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:29:45.109 INFO: GET 200 /
+- 11:29:45.109 INFO: GET 200 /css/style.css
+- 11:29:45.125 INFO: GET 200 /encabezado.html
+- 11:29:45.125 INFO: GET 200 /img/caja.png
+- 11:29:45.141 INFO: GET 200 /css/styleEncabezado.css
+- 11:29:45.141 INFO: GET 200 /img/logoMorf.png
+- 11:29:45.109 DEBUG: OnContextCreated()
+- 11:29:45.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:06.734 DEBUG: F5 pressed, reloading page
+- 11:30:06.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:06.734 INFO: GET 200 /
+- 11:30:06.750 INFO: GET 200 /css/style.css
+- 11:30:06.766 INFO: GET 200 /encabezado.html
+- 11:30:06.781 INFO: GET 200 /img/caja.png
+- 11:30:06.781 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:06.781 INFO: GET 200 /img/logoMorf.png
+- 11:30:06.750 DEBUG: OnContextCreated()
+- 11:30:06.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:10.234 DEBUG: F5 pressed, reloading page
+- 11:30:10.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:10.234 INFO: GET 200 /
+- 11:30:10.250 INFO: GET 200 /css/style.css
+- 11:30:10.266 INFO: GET 200 /encabezado.html
+- 11:30:10.281 INFO: GET 200 /img/caja.png
+- 11:30:10.281 INFO: GET 200 /img/logoMorf.png
+- 11:30:10.281 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:10.250 DEBUG: OnContextCreated()
+- 11:30:10.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:11.266 DEBUG: F5 pressed, reloading page
+- 11:30:11.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:11.281 INFO: GET 200 /
+- 11:30:11.297 INFO: GET 200 /css/style.css
+- 11:30:11.297 INFO: GET 200 /encabezado.html
+- 11:30:11.313 INFO: GET 200 /img/caja.png
+- 11:30:11.328 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:11.328 INFO: GET 200 /img/logoMorf.png
+- 11:30:11.297 DEBUG: OnContextCreated()
+- 11:30:11.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:11.422 DEBUG: F5 pressed, reloading page
+- 11:30:11.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:11.438 INFO: GET 200 /
+- 11:30:11.438 INFO: GET 200 /css/style.css
+- 11:30:11.438 INFO: GET 200 /encabezado.html
+- 11:30:11.453 INFO: GET 200 /img/caja.png
+- 11:30:12.578 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:12.578 INFO: GET 200 /img/logoMorf.png
+- 11:30:12.641 DEBUG: F5 pressed, reloading page
+- 11:30:12.594 DEBUG: OnContextCreated()
+- 11:30:12.656 INFO: GET 200 /
+- 11:30:12.766 INFO: GET 200 /css/style.css
+- 11:30:12.766 INFO: GET 200 /encabezado.html
+- 11:30:12.781 INFO: GET 200 /img/caja.png
+- 11:30:12.797 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:12.797 INFO: GET 200 /img/logoMorf.png
+- 11:30:12.766 DEBUG: OnContextCreated()
+- 11:30:12.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:18.047 DEBUG: F5 pressed, reloading page
+- 11:30:18.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:18.063 INFO: GET 200 /
+- 11:30:18.094 INFO: GET 200 /css/style.css
+- 11:30:18.094 INFO: GET 200 /encabezado.html
+- 11:30:18.109 INFO: GET 200 /img/caja.png
+- 11:30:18.125 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:18.125 INFO: GET 200 /img/logoMorf.png
+- 11:30:18.094 DEBUG: OnContextCreated()
+- 11:30:18.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:19.531 DEBUG: F5 pressed, reloading page
+- 11:30:19.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:19.547 INFO: GET 200 /
+- 11:30:19.563 INFO: GET 200 /css/style.css
+- 11:30:19.563 INFO: GET 200 /encabezado.html
+- 11:30:19.563 INFO: GET 200 /img/caja.png
+- 11:30:19.578 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:19.578 INFO: GET 200 /img/logoMorf.png
+- 11:30:19.547 DEBUG: OnContextCreated()
+- 11:30:19.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:19.734 DEBUG: F5 pressed, reloading page
+- 11:30:19.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:19.734 INFO: GET 200 /
+- 11:30:19.750 INFO: GET 200 /css/style.css
+- 11:30:19.750 INFO: GET 200 /encabezado.html
+- 11:30:19.766 INFO: GET 200 /img/caja.png
+- 11:30:19.781 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:19.781 INFO: GET 200 /img/logoMorf.png
+- 11:30:19.750 DEBUG: OnContextCreated()
+- 11:30:19.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:30:25.766 DEBUG: F5 pressed, reloading page
+- 11:30:25.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:30:25.781 INFO: GET 200 /
+- 11:30:25.797 INFO: GET 200 /css/style.css
+- 11:30:25.797 INFO: GET 200 /encabezado.html
+- 11:30:25.813 INFO: GET 200 /img/caja.png
+- 11:30:25.813 INFO: GET 200 /css/styleEncabezado.css
+- 11:30:25.828 INFO: GET 200 /img/logoMorf.png
+- 11:30:25.797 DEBUG: OnContextCreated()
+- 11:30:25.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:31:23.047 DEBUG: F5 pressed, reloading page
+- 11:31:23.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:31:23.063 INFO: GET 200 /
+- 11:31:23.094 INFO: GET 200 /css/style.css
+- 11:31:23.094 INFO: GET 200 /encabezado.html
+- 11:31:23.109 INFO: GET 200 /img/caja.png
+- 11:31:23.109 INFO: GET 200 /img/logoMorf.png
+- 11:31:23.109 INFO: GET 200 /css/styleEncabezado.css
+- 11:31:23.078 DEBUG: OnContextCreated()
+- 11:31:23.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:31:39.234 DEBUG: F5 pressed, reloading page
+- 11:31:39.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:31:39.250 INFO: GET 200 /
+- 11:31:39.266 INFO: GET 200 /css/style.css
+- 11:31:39.266 INFO: GET 200 /encabezado.html
+- 11:31:39.297 INFO: GET 200 /img/caja.png
+- 11:31:39.250 DEBUG: OnContextCreated()
+- 11:31:39.297 INFO: GET 200 /img/logoMorf.png
+- 11:31:39.297 INFO: GET 200 /css/styleEncabezado.css
+- 11:31:39.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:31:50.391 DEBUG: F5 pressed, reloading page
+- 11:31:50.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:31:50.406 INFO: GET 200 /
+- 11:31:50.438 INFO: GET 200 /css/style.css
+- 11:31:50.438 INFO: GET 200 /encabezado.html
+- 11:31:50.453 INFO: GET 200 /img/caja.png
+- 11:31:50.453 INFO: GET 200 /css/styleEncabezado.css
+- 11:31:50.453 INFO: GET 200 /img/logoMorf.png
+- 11:31:50.422 DEBUG: OnContextCreated()
+- 11:31:51.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:31:56.156 DEBUG: F5 pressed, reloading page
+- 11:31:56.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:31:56.172 INFO: GET 200 /
+- 11:31:56.203 INFO: GET 200 /css/style.css
+- 11:31:56.203 INFO: GET 200 /encabezado.html
+- 11:31:56.219 INFO: GET 200 /img/caja.png
+- 11:31:56.234 INFO: GET 200 /css/styleEncabezado.css
+- 11:31:56.234 INFO: GET 200 /img/logoMorf.png
+- 11:31:56.219 DEBUG: OnContextCreated()
+- 11:31:56.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:32:19.063 DEBUG: F5 pressed, reloading page
+- 11:32:19.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:32:19.078 INFO: GET 200 /
+- 11:32:19.109 INFO: GET 200 /css/style.css
+- 11:32:19.109 INFO: GET 200 /encabezado.html
+- 11:32:19.109 INFO: GET 200 /img/caja.png
+- 11:32:19.141 INFO: GET 200 /css/styleEncabezado.css
+- 11:32:19.141 INFO: GET 200 /img/logoMorf.png
+- 11:32:19.094 DEBUG: OnContextCreated()
+- 11:32:19.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:32:24.078 DEBUG: F5 pressed, reloading page
+- 11:32:24.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:32:24.094 INFO: GET 200 /
+- 11:32:24.109 INFO: GET 200 /css/style.css
+- 11:32:24.109 INFO: GET 200 /encabezado.html
+- 11:32:24.109 INFO: GET 200 /img/caja.png
+- 11:32:24.109 INFO: GET 200 /img/logoMorf.png
+- 11:32:24.109 INFO: GET 200 /css/styleEncabezado.css
+- 11:32:24.078 DEBUG: OnContextCreated()
+- 11:32:24.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:01.625 DEBUG: F5 pressed, reloading page
+- 11:33:01.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:01.625 INFO: GET 200 /
+- 11:33:01.641 INFO: GET 200 /css/style.css
+- 11:33:01.641 INFO: GET 200 /encabezado.html
+- 11:33:01.656 INFO: GET 200 /img/caja.png
+- 11:33:01.672 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:01.672 INFO: GET 200 /img/logoMorf.png
+- 11:33:01.625 DEBUG: OnContextCreated()
+- 11:33:01.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:06.219 DEBUG: F5 pressed, reloading page
+- 11:33:06.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:06.234 INFO: GET 200 /
+- 11:33:06.250 INFO: GET 200 /css/style.css
+- 11:33:06.250 INFO: GET 200 /encabezado.html
+- 11:33:06.250 INFO: GET 200 /img/caja.png
+- 11:33:06.266 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:06.266 INFO: GET 200 /img/logoMorf.png
+- 11:33:06.234 DEBUG: OnContextCreated()
+- 11:33:06.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:14.781 DEBUG: F5 pressed, reloading page
+- 11:33:14.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:14.797 INFO: GET 200 /
+- 11:33:14.828 INFO: GET 200 /css/style.css
+- 11:33:14.828 INFO: GET 200 /encabezado.html
+- 11:33:14.844 INFO: GET 200 /img/caja.png
+- 11:33:14.859 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:14.859 INFO: GET 200 /img/logoMorf.png
+- 11:33:14.828 DEBUG: OnContextCreated()
+- 11:33:14.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:14.063 DEBUG: F5 pressed, reloading page
+- 11:33:14.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:14.063 INFO: GET 200 /
+- 11:33:14.078 INFO: GET 200 /css/style.css
+- 11:33:14.078 INFO: GET 200 /encabezado.html
+- 11:33:14.078 INFO: GET 200 /img/caja.png
+- 11:33:14.094 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:14.094 INFO: GET 200 /img/logoMorf.png
+- 11:33:14.062 DEBUG: OnContextCreated()
+- 11:33:14.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:14.328 DEBUG: F5 pressed, reloading page
+- 11:33:14.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:14.344 INFO: GET 200 /
+- 11:33:14.344 INFO: GET 200 /css/style.css
+- 11:33:14.344 INFO: GET 200 /encabezado.html
+- 11:33:14.359 INFO: GET 200 /img/caja.png
+- 11:33:14.359 INFO: GET 200 /img/logoMorf.png
+- 11:33:14.359 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:14.328 DEBUG: OnContextCreated()
+- 11:33:14.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:15.563 DEBUG: F5 pressed, reloading page
+- 11:33:15.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:15.578 INFO: GET 200 /
+- 11:33:15.594 INFO: GET 200 /css/style.css
+- 11:33:15.594 INFO: GET 200 /encabezado.html
+- 11:33:15.594 INFO: GET 200 /img/caja.png
+- 11:33:15.609 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:15.609 INFO: GET 200 /img/logoMorf.png
+- 11:33:15.578 DEBUG: OnContextCreated()
+- 11:33:15.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:33:16.234 DEBUG: F5 pressed, reloading page
+- 11:33:16.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:33:16.250 INFO: GET 200 /
+- 11:33:16.266 INFO: GET 200 /css/style.css
+- 11:33:16.266 INFO: GET 200 /encabezado.html
+- 11:33:16.281 INFO: GET 200 /img/caja.png
+- 11:33:16.297 INFO: GET 200 /css/styleEncabezado.css
+- 11:33:16.297 INFO: GET 200 /img/logoMorf.png
+- 11:33:16.266 DEBUG: OnContextCreated()
+- 11:33:16.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:15.703 DEBUG: F5 pressed, reloading page
+- 11:34:15.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:15.719 INFO: GET 200 /
+- 11:34:15.734 INFO: GET 200 /css/style.css
+- 11:34:15.750 INFO: GET 200 /encabezado.html
+- 11:34:15.750 INFO: GET 200 /img/caja.png
+- 11:34:15.766 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:15.766 INFO: GET 200 /img/logoMorf.png
+- 11:34:15.734 DEBUG: OnContextCreated()
+- 11:34:15.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:25.781 DEBUG: F5 pressed, reloading page
+- 11:34:25.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:25.797 INFO: GET 200 /
+- 11:34:25.813 INFO: GET 200 /css/style.css
+- 11:34:25.813 INFO: GET 200 /encabezado.html
+- 11:34:25.828 INFO: GET 200 /img/caja.png
+- 11:34:25.828 INFO: GET 200 /img/logoMorf.png
+- 11:34:25.828 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:25.797 DEBUG: OnContextCreated()
+- 11:34:25.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:31.344 DEBUG: F5 pressed, reloading page
+- 11:34:31.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:31.359 INFO: GET 200 /
+- 11:34:31.375 INFO: GET 200 /css/style.css
+- 11:34:31.375 INFO: GET 200 /encabezado.html
+- 11:34:31.391 INFO: GET 200 /img/caja.png
+- 11:34:31.391 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:31.391 INFO: GET 200 /img/logoMorf.png
+- 11:34:31.359 DEBUG: OnContextCreated()
+- 11:34:31.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:34.109 DEBUG: F5 pressed, reloading page
+- 11:34:34.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:34.125 INFO: GET 200 /
+- 11:34:34.156 INFO: GET 200 /css/style.css
+- 11:34:34.156 INFO: GET 200 /encabezado.html
+- 11:34:34.188 INFO: GET 200 /img/caja.png
+- 11:34:34.188 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:34.188 INFO: GET 200 /img/logoMorf.png
+- 11:34:34.156 DEBUG: OnContextCreated()
+- 11:34:34.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:54.375 DEBUG: F5 pressed, reloading page
+- 11:34:54.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:54.391 INFO: GET 200 /
+- 11:34:54.406 INFO: GET 200 /css/style.css
+- 11:34:54.406 INFO: GET 200 /encabezado.html
+- 11:34:54.422 INFO: GET 200 /img/caja.png
+- 11:34:54.438 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:54.438 INFO: GET 200 /img/logoMorf.png
+- 11:34:54.406 DEBUG: OnContextCreated()
+- 11:34:54.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:34:58.438 DEBUG: F5 pressed, reloading page
+- 11:34:58.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:34:58.438 INFO: GET 200 /
+- 11:34:58.469 INFO: GET 200 /css/style.css
+- 11:34:58.469 INFO: GET 200 /encabezado.html
+- 11:34:59.484 INFO: GET 200 /img/caja.png
+- 11:34:59.531 INFO: GET 200 /css/styleEncabezado.css
+- 11:34:59.531 INFO: GET 200 /img/logoMorf.png
+- 11:34:59.516 DEBUG: OnContextCreated()
+- 11:34:59.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:35:05.906 DEBUG: F5 pressed, reloading page
+- 11:35:05.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:35:05.922 INFO: GET 200 /
+- 11:35:05.953 INFO: GET 200 /css/style.css
+- 11:35:05.953 INFO: GET 200 /encabezado.html
+- 11:35:05.969 INFO: GET 200 /css/styleEncabezado.css
+- 11:35:05.969 INFO: GET 200 /img/logoMorf.png
+- 11:35:05.969 INFO: GET 200 /img/caja.png
+- 11:35:05.969 DEBUG: OnContextCreated()
+- 11:35:05.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:35:53.219 DEBUG: F5 pressed, reloading page
+- 11:35:53.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:35:53.234 INFO: GET 200 /
+- 11:35:53.234 INFO: GET 200 /css/style.css
+- 11:35:53.250 INFO: GET 200 /encabezado.html
+- 11:35:53.250 INFO: GET 200 /img/caja.png
+- 11:35:53.266 INFO: GET 200 /css/styleEncabezado.css
+- 11:35:53.266 INFO: GET 200 /img/logoMorf.png
+- 11:35:53.234 DEBUG: OnContextCreated()
+- 11:35:53.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 11:35:58.328 DEBUG: F5 pressed, reloading page
+- 11:35:58.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 11:35:58.328 INFO: GET 200 /
+- 11:35:58.344 INFO: GET 200 /css/style.css
+- 11:35:58.359 INFO: GET 200 /encabezado.html
+- 11:35:58.375 INFO: GET 200 /img/caja.png
+- 11:35:58.391 INFO: GET 200 /img/logoMorf.png
+- 11:35:58.375 INFO: GET 200 /css/styleEncabezado.css
+- 11:35:58.344 DEBUG: OnContextCreated()
+- 11:35:58.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:29:21.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:29:21.156 INFO: GET 200 /
+- 12:29:21.172 INFO: GET 200 /css/style.css
+- 12:29:21.172 INFO: GET 200 /encabezado.html
+- 12:29:21.188 INFO: GET 200 /img/caja.png
+- 12:29:21.188 INFO: GET 200 /css/styleEncabezado.css
+- 12:29:21.188 INFO: GET 200 /img/logoMorf.png
+- 12:29:21.156 DEBUG: OnContextCreated()
+- 12:29:21.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:29:32.141 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:32.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:32.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:32.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.578 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.688 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.797 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.906 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.016 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.141 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.234 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.344 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:33.453 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.563 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.781 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.891 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.000 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:34.438 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.766 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.875 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.984 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.313 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:35.422 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.531 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.641 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.859 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.969 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:29:36.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1705924
+- 12:30:20.297 DEBUG: F5 pressed, reloading page
+- 12:30:20.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:30:20.297 INFO: GET 200 /
+- 12:30:20.297 INFO: GET 200 /css/style.css
+- 12:30:20.313 INFO: GET 200 /encabezado.html
+- 12:30:20.313 INFO: GET 200 /img/caja.png
+- 12:30:20.313 INFO: GET 200 /img/logoMorf.png
+- 12:30:20.313 INFO: GET 200 /css/styleEncabezado.css
+- 12:30:20.281 DEBUG: OnContextCreated()
+- 12:30:20.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:31:05.672 INFO: GET 200 /
+- 12:31:05.797 INFO: GET 200 /css/style.css
+- 12:31:05.844 INFO: GET 200 /encabezado.html
+- 12:31:05.938 INFO: GET 200 /css/styleEncabezado.css
+- 12:31:05.938 INFO: GET 200 /img/logoMorf.png
+- 12:31:05.906 INFO: GET 200 /img/caja.png
+- 12:31:05.188 INFO: GET 404 /favicon.ico
+- 12:31:44.578 DEBUG: F5 pressed, reloading page
+- 12:31:44.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:31:44.578 INFO: GET 200 /
+- 12:31:44.594 INFO: GET 200 /css/style.css
+- 12:31:44.594 INFO: GET 200 /encabezado.html
+- 12:31:44.594 INFO: GET 200 /img/caja.png
+- 12:31:44.609 INFO: GET 200 /css/styleEncabezado.css
+- 12:31:44.609 INFO: GET 200 /img/logoMorf.png
+- 12:31:44.578 DEBUG: OnContextCreated()
+- 12:31:44.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:31:50.281 DEBUG: F5 pressed, reloading page
+- 12:31:50.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:31:50.281 INFO: GET 200 /
+- 12:31:50.297 INFO: GET 200 /css/style.css
+- 12:31:50.297 INFO: GET 200 /encabezado.html
+- 12:31:50.297 INFO: GET 200 /img/caja.png
+- 12:31:50.313 INFO: GET 200 /css/styleEncabezado.css
+- 12:31:50.313 INFO: GET 200 /img/logoMorf.png
+- 12:31:50.266 DEBUG: OnContextCreated()
+- 12:31:50.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:31:53.234 DEBUG: F5 pressed, reloading page
+- 12:31:53.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:31:53.234 INFO: GET 200 /
+- 12:31:53.234 INFO: GET 200 /css/style.css
+- 12:31:53.250 INFO: GET 200 /encabezado.html
+- 12:31:53.266 INFO: GET 200 /img/caja.png
+- 12:31:53.266 INFO: GET 200 /img/logoMorf.png
+- 12:31:53.266 INFO: GET 200 /css/styleEncabezado.css
+- 12:31:53.234 DEBUG: OnContextCreated()
+- 12:31:53.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:32:14.906 DEBUG: F5 pressed, reloading page
+- 12:32:14.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:32:14.938 INFO: GET 200 /
+- 12:32:14.938 INFO: GET 200 /css/style.css
+- 12:32:14.938 INFO: GET 200 /encabezado.html
+- 12:32:14.953 INFO: GET 200 /img/caja.png
+- 12:32:14.953 INFO: GET 200 /css/styleEncabezado.css
+- 12:32:14.953 INFO: GET 200 /img/logoMorf.png
+- 12:32:14.922 DEBUG: OnContextCreated()
+- 12:32:14.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:32:20.219 DEBUG: F5 pressed, reloading page
+- 12:32:20.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:32:20.219 INFO: GET 200 /
+- 12:32:20.234 INFO: GET 200 /css/style.css
+- 12:32:20.234 INFO: GET 200 /encabezado.html
+- 12:32:20.234 INFO: GET 200 /img/caja.png
+- 12:32:20.266 INFO: GET 200 /css/styleEncabezado.css
+- 12:32:20.266 INFO: GET 200 /img/logoMorf.png
+- 12:32:20.219 DEBUG: OnContextCreated()
+- 12:32:20.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:32:30.047 DEBUG: F5 pressed, reloading page
+- 12:32:30.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:32:30.063 INFO: GET 200 /
+- 12:32:30.078 INFO: GET 200 /css/style.css
+- 12:32:30.078 INFO: GET 200 /encabezado.html
+- 12:32:30.094 INFO: GET 200 /img/caja.png
+- 12:32:30.094 INFO: GET 200 /css/styleEncabezado.css
+- 12:32:30.094 INFO: GET 200 /img/logoMorf.png
+- 12:32:30.078 DEBUG: OnContextCreated()
+- 12:32:30.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:32:37.797 DEBUG: F5 pressed, reloading page
+- 12:32:37.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:32:37.813 INFO: GET 200 /
+- 12:32:37.828 INFO: GET 200 /css/style.css
+- 12:32:37.828 INFO: GET 200 /encabezado.html
+- 12:32:37.844 INFO: GET 200 /img/caja.png
+- 12:32:37.859 INFO: GET 200 /css/styleEncabezado.css
+- 12:32:37.859 INFO: GET 200 /img/logoMorf.png
+- 12:32:37.828 DEBUG: OnContextCreated()
+- 12:32:37.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:35:25.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:35:25.563 INFO: GET 404 /index.php
+- 12:35:25.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 12:35:30.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 12:35:30.484 DEBUG: OnContextCreated()
+- 12:35:30.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:36:23.672 DEBUG: F5 pressed, reloading page
+- 12:36:23.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:36:23.672 INFO: GET 200 /
+- 12:36:23.688 INFO: GET 200 /css/style.css
+- 12:36:23.688 INFO: GET 200 /encabezado.html
+- 12:36:23.688 INFO: GET 200 /img/caja.png
+- 12:36:23.703 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:23.703 INFO: GET 200 /img/logoMorf.png
+- 12:36:23.672 DEBUG: OnContextCreated()
+- 12:36:23.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:36:24.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:36:24.609 INFO: GET 304 /encabezado.html
+- 12:36:24.609 DEBUG: OnContextCreated()
+- 12:36:24.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:29.672 DEBUG: F5 pressed, reloading page
+- 12:36:29.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:29.672 INFO: GET 200 /encabezado.html
+- 12:36:29.641 DEBUG: OnContextCreated()
+- 12:36:29.688 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:29.688 INFO: GET 200 /img/logoMorf.png
+- 12:36:29.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:29.219 DEBUG: F5 pressed, reloading page
+- 12:36:29.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:29.219 INFO: GET 200 /encabezado.html
+- 12:36:29.187 DEBUG: OnContextCreated()
+- 12:36:29.234 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:29.234 INFO: GET 200 /img/logoMorf.png
+- 12:36:29.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:30.734 DEBUG: F5 pressed, reloading page
+- 12:36:30.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:30.734 INFO: GET 200 /encabezado.html
+- 12:36:30.703 DEBUG: OnContextCreated()
+- 12:36:30.750 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:30.750 INFO: GET 200 /img/logoMorf.png
+- 12:36:30.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:31.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/encabezado.html#
+- 12:36:31.016 DEBUG: OnContextCreated()
+- 12:36:31.031 DEBUG: OnContextCreated()
+- 12:36:31.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:36:32.000 DEBUG: F5 pressed, reloading page
+- 12:36:32.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:36:32.016 INFO: GET 200 /
+- 12:36:32.969 DEBUG: OnContextCreated()
+- 12:36:32.031 INFO: GET 200 /css/style.css
+- 12:36:32.031 INFO: GET 200 /encabezado.html
+- 12:36:32.047 INFO: GET 200 /img/caja.png
+- 12:36:32.063 INFO: GET 200 /css/styleEncabezado.css
+- 12:36:32.063 INFO: GET 200 /img/logoMorf.png
+- 12:36:32.031 DEBUG: OnContextCreated()
+- 12:36:32.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:36:33.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:36:33.609 INFO: GET 404 /index.php
+- 12:36:33.562 DEBUG: OnContextCreated()
+- 12:36:33.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 12:36:36.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 12:36:36.969 INFO: GET 404 /index.php
+- 12:36:36.922 DEBUG: OnContextCreated()
+- 12:36:36.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 12:36:38.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 12:36:38.953 DEBUG: OnContextCreated()
+- 12:36:38.984 DEBUG: OnContextCreated()
+- 12:36:38.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:36:44.250 INFO: GET 304 /
+- 12:36:44.359 INFO: GET 304 /css/style.css
+- 12:36:44.453 INFO: GET 304 /
+- 12:36:45.547 INFO: GET 304 /css/style.css
+- 12:36:45.625 INFO: GET 304 /
+- 12:36:45.797 INFO: GET 304 /css/style.css
+- 12:36:46.563 INFO: GET 404 /index.php
+- 12:37:16.750 INFO: GET 304 /
+- 12:37:16.859 INFO: GET 304 /css/style.css
+- 12:37:17.047 INFO: GET 404 /index.php
+- 12:37:50.547 INFO: GET 404 /index.php
+- 12:37:51.734 INFO: GET 304 /
+- 12:37:51.813 INFO: GET 304 /css/style.css
+- 12:37:52.703 INFO: GET 404 /index.php
+- 12:39:13.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:39:13.078 INFO: GET 404 /index.php
+- 12:39:13.031 DEBUG: OnContextCreated()
+- 12:39:13.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 12:39:17.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 12:39:17.469 DEBUG: OnContextCreated()
+- 12:39:17.484 DEBUG: OnContextCreated()
+- 12:39:17.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:39:33.328 INFO: GET 404 /index.php
+- 12:40:30.172 INFO: GET 304 /
+- 12:40:30.281 INFO: GET 304 /css/style.css
+- 12:40:30.328 INFO: GET 304 /img/caja.png
+- 12:40:30.344 INFO: GET 304 /img/logoMorf.png
+- 12:40:30.344 INFO: GET 304 /css/styleEncabezado.css
+- 12:40:35.641 INFO: GET 404 /index.php
+- 12:40:56.469 INFO: GET 304 /
+- 12:40:57.547 INFO: GET 304 /css/style.css
+- 12:40:57.578 INFO: GET 304 /css/styleEncabezado.css
+- 12:40:57.578 INFO: GET 304 /img/logoMorf.png
+- 12:40:57.594 INFO: GET 304 /img/caja.png
+- 12:40:57.141 INFO: GET 404 /index.php
+- 12:41:10.500 INFO: GET 304 /
+- 12:41:10.594 INFO: GET 304 /css/style.css
+- 12:41:10.625 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:10.625 INFO: GET 304 /img/logoMorf.png
+- 12:41:10.641 INFO: GET 304 /img/caja.png
+- 12:41:10.094 INFO: GET 304 /
+- 12:41:10.156 INFO: GET 304 /css/style.css
+- 12:41:10.203 INFO: GET 304 /img/caja.png
+- 12:41:10.219 INFO: GET 304 /img/logoMorf.png
+- 12:41:10.219 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:10.359 INFO: GET 304 /
+- 12:41:10.453 INFO: GET 304 /css/style.css
+- 12:41:11.484 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:11.484 INFO: GET 304 /img/logoMorf.png
+- 12:41:11.578 INFO: GET 304 /
+- 12:41:11.672 INFO: GET 304 /css/style.css
+- 12:41:11.703 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:11.703 INFO: GET 304 /img/logoMorf.png
+- 12:41:12.672 INFO: GET 404 /index.php
+- 12:41:13.391 INFO: GET 304 /
+- 12:41:13.469 INFO: GET 304 /css/style.css
+- 12:41:14.500 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:14.516 INFO: GET 304 /img/logoMorf.png
+- 12:41:28.938 INFO: GET 304 /
+- 12:41:28.078 INFO: GET 304 /css/style.css
+- 12:41:28.094 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:28.094 INFO: GET 304 /img/logoMorf.png
+- 12:41:56.922 DEBUG: F5 pressed, reloading page
+- 12:41:56.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:41:56.938 INFO: GET 200 /
+- 12:41:56.891 DEBUG: OnContextCreated()
+- 12:41:56.953 INFO: GET 200 /css/style.css
+- 12:41:56.969 INFO: GET 200 /img/caja.png
+- 12:41:56.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:41:57.609 DEBUG: F5 pressed, reloading page
+- 12:41:57.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:41:57.625 INFO: GET 200 /
+- 12:41:57.578 DEBUG: OnContextCreated()
+- 12:41:57.641 INFO: GET 200 /css/style.css
+- 12:41:57.641 INFO: GET 200 /img/caja.png
+- 12:41:57.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:41:59.656 INFO: GET 304 /
+- 12:41:59.734 INFO: GET 304 /css/style.css
+- 12:41:59.750 INFO: GET 304 /encabezado.html
+- 12:41:59.781 INFO: GET 304 /css/styleEncabezado.css
+- 12:41:59.781 INFO: GET 304 /img/logoMorf.png
+- 12:42:00.031 INFO: GET 200 /
+- 12:42:00.109 INFO: GET 200 /css/style.css
+- 12:42:00.125 INFO: GET 200 /img/caja.png
+- 12:42:00.172 INFO: GET 404 /favicon.ico
+- 12:42:06.828 INFO: GET 304 /
+- 12:42:08.563 INFO: GET 200 /
+- 12:42:08.641 INFO: GET 200 /css/style.css
+- 12:42:08.641 INFO: GET 200 /encabezado.html
+- 12:42:08.672 INFO: GET 200 /css/styleEncabezado.css
+- 12:42:08.688 INFO: GET 200 /img/logoMorf.png
+- 12:42:08.703 INFO: GET 200 /img/caja.png
+- 12:42:08.750 INFO: GET 404 /favicon.ico
+- 12:42:14.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:42:14.156 DEBUG: OnContextCreated()
+- 12:42:14.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/index.php
+- 12:42:17.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/index.php
+- 12:42:17.734 DEBUG: OnContextCreated()
+- 12:42:17.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:42:18.797 DEBUG: F5 pressed, reloading page
+- 12:42:18.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:42:18.813 INFO: GET 200 /
+- 12:42:18.781 DEBUG: OnContextCreated()
+- 12:42:18.828 INFO: GET 200 /css/style.css
+- 12:42:18.844 INFO: GET 200 /encabezado.html
+- 12:42:18.844 INFO: GET 200 /img/caja.png
+- 12:42:18.875 INFO: GET 200 /css/styleEncabezado.css
+- 12:42:18.875 INFO: GET 200 /img/logoMorf.png
+- 12:42:18.828 DEBUG: OnContextCreated()
+- 12:42:18.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:48:33.797 DEBUG: F5 pressed, reloading page
+- 12:48:33.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:48:33.813 INFO: GET 200 /
+- 12:48:33.797 DEBUG: OnContextCreated()
+- 12:48:33.859 INFO: GET 200 /css/style.css
+- 12:48:33.859 INFO: GET 200 /encabezado.html
+- 12:48:33.875 INFO: GET 200 /img/caja.png
+- 12:48:33.875 INFO: GET 200 /css/styleEncabezado.css
+- 12:48:33.875 INFO: GET 200 /img/logoMorf.png
+- 12:48:33.844 DEBUG: OnContextCreated()
+- 12:48:33.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:04.969 DEBUG: F5 pressed, reloading page
+- 12:49:04.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:04.984 INFO: GET 200 /
+- 12:49:04.969 DEBUG: OnContextCreated()
+- 12:49:04.031 INFO: GET 200 /css/style.css
+- 12:49:04.031 INFO: GET 200 /encabezado.html
+- 12:49:04.047 INFO: GET 200 /img/caja.png
+- 12:49:04.047 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:04.047 INFO: GET 200 /img/logoMorf.png
+- 12:49:04.016 DEBUG: OnContextCreated()
+- 12:49:04.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:38.609 DEBUG: F5 pressed, reloading page
+- 12:49:38.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:38.625 INFO: GET 200 /
+- 12:49:38.594 DEBUG: OnContextCreated()
+- 12:49:38.641 INFO: GET 200 /css/style.css
+- 12:49:38.641 INFO: GET 200 /encabezado.html
+- 12:49:38.656 INFO: GET 200 /img/caja.png
+- 12:49:38.656 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:38.656 INFO: GET 200 /img/logoMorf.png
+- 12:49:38.625 DEBUG: OnContextCreated()
+- 12:49:38.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:39.875 DEBUG: F5 pressed, reloading page
+- 12:49:39.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:39.875 INFO: GET 200 /
+- 12:49:39.844 DEBUG: OnContextCreated()
+- 12:49:39.891 INFO: GET 200 /css/style.css
+- 12:49:39.891 INFO: GET 200 /encabezado.html
+- 12:49:39.906 INFO: GET 200 /img/caja.png
+- 12:49:39.922 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:39.922 INFO: GET 200 /img/logoMorf.png
+- 12:49:39.875 DEBUG: OnContextCreated()
+- 12:49:39.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:40.000 DEBUG: F5 pressed, reloading page
+- 12:49:40.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:40.016 INFO: GET 200 /
+- 12:49:40.984 DEBUG: OnContextCreated()
+- 12:49:40.031 INFO: GET 200 /encabezado.html
+- 12:49:40.031 INFO: GET 200 /css/style.css
+- 12:49:40.047 INFO: GET 200 /img/caja.png
+- 12:49:40.047 INFO: GET 200 /img/logoMorf.png
+- 12:49:40.047 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:40.016 DEBUG: OnContextCreated()
+- 12:49:40.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:42.328 DEBUG: F5 pressed, reloading page
+- 12:49:42.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:42.359 INFO: GET 200 /
+- 12:49:42.328 DEBUG: OnContextCreated()
+- 12:49:42.391 INFO: GET 200 /css/style.css
+- 12:49:42.391 INFO: GET 200 /encabezado.html
+- 12:49:42.406 INFO: GET 200 /img/caja.png
+- 12:49:42.406 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:42.406 INFO: GET 200 /img/logoMorf.png
+- 12:49:42.375 DEBUG: OnContextCreated()
+- 12:49:42.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:43.531 DEBUG: F5 pressed, reloading page
+- 12:49:43.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:43.547 INFO: GET 200 /
+- 12:49:43.500 DEBUG: OnContextCreated()
+- 12:49:43.563 INFO: GET 200 /css/style.css
+- 12:49:43.563 INFO: GET 200 /encabezado.html
+- 12:49:43.578 INFO: GET 200 /img/caja.png
+- 12:49:43.594 INFO: GET 200 /img/logoMorf.png
+- 12:49:43.594 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:43.547 DEBUG: OnContextCreated()
+- 12:49:43.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:43.719 DEBUG: F5 pressed, reloading page
+- 12:49:43.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:43.719 INFO: GET 200 /
+- 12:49:43.687 DEBUG: OnContextCreated()
+- 12:49:43.734 INFO: GET 200 /css/style.css
+- 12:49:43.734 INFO: GET 200 /encabezado.html
+- 12:49:43.750 INFO: GET 200 /img/caja.png
+- 12:49:43.766 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:43.766 INFO: GET 200 /img/logoMorf.png
+- 12:49:43.719 DEBUG: OnContextCreated()
+- 12:49:43.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:49:43.859 DEBUG: F5 pressed, reloading page
+- 12:49:43.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:49:43.859 INFO: GET 200 /
+- 12:49:43.828 DEBUG: OnContextCreated()
+- 12:49:43.875 INFO: GET 200 /css/style.css
+- 12:49:43.875 INFO: GET 200 /encabezado.html
+- 12:49:43.891 INFO: GET 200 /img/logoMorf.png
+- 12:49:43.891 INFO: GET 200 /img/caja.png
+- 12:49:43.891 INFO: GET 200 /css/styleEncabezado.css
+- 12:49:43.859 DEBUG: OnContextCreated()
+- 12:49:43.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:03.344 DEBUG: F5 pressed, reloading page
+- 12:50:03.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:03.344 INFO: GET 200 /
+- 12:50:03.312 DEBUG: OnContextCreated()
+- 12:50:03.375 INFO: GET 200 /css/style.css
+- 12:50:03.375 INFO: GET 200 /encabezado.html
+- 12:50:03.375 INFO: GET 200 /img/caja.png
+- 12:50:03.391 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:03.391 INFO: GET 200 /img/logoMorf.png
+- 12:50:03.375 DEBUG: OnContextCreated()
+- 12:50:03.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:11.203 DEBUG: F5 pressed, reloading page
+- 12:50:11.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:11.219 INFO: GET 200 /
+- 12:50:11.187 DEBUG: OnContextCreated()
+- 12:50:11.234 INFO: GET 200 /css/style.css
+- 12:50:11.250 INFO: GET 200 /encabezado.html
+- 12:50:11.266 INFO: GET 200 /img/caja.png
+- 12:50:11.281 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:11.281 INFO: GET 200 /img/logoMorf.png
+- 12:50:11.250 DEBUG: OnContextCreated()
+- 12:50:11.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:15.313 DEBUG: F5 pressed, reloading page
+- 12:50:15.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:15.328 INFO: GET 200 /
+- 12:50:15.297 DEBUG: OnContextCreated()
+- 12:50:15.359 INFO: GET 200 /css/style.css
+- 12:50:15.359 INFO: GET 200 /encabezado.html
+- 12:50:15.375 INFO: GET 200 /img/caja.png
+- 12:50:15.391 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:15.391 INFO: GET 200 /img/logoMorf.png
+- 12:50:15.375 DEBUG: OnContextCreated()
+- 12:50:16.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:26.219 DEBUG: F5 pressed, reloading page
+- 12:50:26.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:26.234 INFO: GET 200 /
+- 12:50:26.187 DEBUG: OnContextCreated()
+- 12:50:26.234 INFO: GET 200 /css/style.css
+- 12:50:26.234 INFO: GET 200 /encabezado.html
+- 12:50:26.250 INFO: GET 200 /img/caja.png
+- 12:50:26.250 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:26.250 INFO: GET 200 /img/logoMorf.png
+- 12:50:26.234 DEBUG: OnContextCreated()
+- 12:50:26.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:31.750 DEBUG: F5 pressed, reloading page
+- 12:50:31.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:31.766 INFO: GET 200 /
+- 12:50:31.734 DEBUG: OnContextCreated()
+- 12:50:31.781 INFO: GET 200 /css/style.css
+- 12:50:31.797 INFO: GET 200 /encabezado.html
+- 12:50:31.813 INFO: GET 200 /img/caja.png
+- 12:50:31.844 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:31.844 INFO: GET 200 /img/logoMorf.png
+- 12:50:31.828 DEBUG: OnContextCreated()
+- 12:50:31.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:35.734 DEBUG: F5 pressed, reloading page
+- 12:50:35.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:35.734 INFO: GET 200 /
+- 12:50:35.703 DEBUG: OnContextCreated()
+- 12:50:35.750 INFO: GET 200 /css/style.css
+- 12:50:35.766 INFO: GET 200 /encabezado.html
+- 12:50:35.766 INFO: GET 200 /img/caja.png
+- 12:50:35.781 INFO: GET 200 /img/logoMorf.png
+- 12:50:35.766 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:35.734 DEBUG: OnContextCreated()
+- 12:50:35.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:35.234 DEBUG: F5 pressed, reloading page
+- 12:50:35.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:35.250 INFO: GET 200 /
+- 12:50:35.234 DEBUG: OnContextCreated()
+- 12:50:35.281 INFO: GET 200 /css/style.css
+- 12:50:35.281 INFO: GET 200 /encabezado.html
+- 12:50:35.297 INFO: GET 200 /img/caja.png
+- 12:50:35.297 INFO: GET 200 /img/logoMorf.png
+- 12:50:35.297 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:35.266 DEBUG: OnContextCreated()
+- 12:50:35.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+- 12:50:35.453 DEBUG: F5 pressed, reloading page
+- 12:50:35.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61531/
+- 12:50:35.469 INFO: GET 200 /
+- 12:50:35.422 DEBUG: OnContextCreated()
+- 12:50:36.484 INFO: GET 200 /css/style.css
+- 12:50:36.484 INFO: GET 200 /encabezado.html
+- 12:50:36.484 INFO: GET 200 /img/caja.png
+- 12:50:36.516 INFO: GET 200 /css/styleEncabezado.css
+- 12:50:36.516 INFO: GET 200 /img/logoMorf.png
+- 12:50:36.469 DEBUG: OnContextCreated()
+- 12:50:36.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61531/
+[0229/133122.623:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:13:22.609 DEBUG: WM_DESTROY
+- 15:13:22.625 DEBUG: RemoveBrowserWindow(): hwnd = 656758
+- 15:13:22.625 INFO: Stopping Mongoose web server
+- 15:13:22.625 DEBUG: Mongoose webserver stopped immediately
+- 15:13:22.625 DEBUG: OnBeforeClose() hwnd=984234
+- 15:13:22.625 DEBUG: RemoveBrowserWindow(): hwnd = 984234
+- 15:13:22.625 DEBUG: GetBrowserWindow(): not found, hwnd = 984234
+- 15:13:22.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:13:22.641 DEBUG: Calling CefQuitMessageLoop()
+- 15:13:22.953 DEBUG: OnBrowserDestroyed()
+- 15:13:23.469 INFO: Ended application
+- 15:13:23.469 INFO: --------------------------------------------------------

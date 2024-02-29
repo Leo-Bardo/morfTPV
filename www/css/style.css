@@ -2,7 +2,7 @@ iframe{
 	border: none;
 	width: 100%;
 	margin-top: 0px;
-/*	height: 110px;*/
+	height: 160px;
 }
 h1{
 /*	border: solid 2px red;*/
@@ -14,10 +14,10 @@ body{
 	justify-content: center;
 /*	align-items: center;*/
 /*	margin-top: 5px;*/
-	background-color: #823772;
+	background-color: #363c3d;
 }
 input{
-	background-color: #823772;
+	background-color: #000051;
 	color: white;
 	width: 260px;
 	height: 60px;
@@ -31,12 +31,27 @@ input{
 /*	border: solid 2px red;*/
 	border-radius: 8px;
 	border: solid 4px;
-	border-color: #a8bcbd;
+	border-color: #000;
 	text-align: center;
 	margin-top: 50px;
 	width: 50%;
 	height: 550px;
 	margin-left: 25%;
-	background-color: #d65981;
+	background-color: #143860;
+}
+
+/*colores
+#003651
+
+*/
+
+.imgCaja{
+	background-image: url('../img/caja.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 20px;
+}
+#imgCaja{
+
 
 }
