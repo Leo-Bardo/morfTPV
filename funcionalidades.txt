@@ -1,0 +1,15 @@
+MENU PRINCIPAL
+->CAJA
+	* cobrar
+	* calculadora
+	* descuento
+	* configuracion
+	* 
+->CONFIGURACION
+->ALTA PRODUCTO
+->ALTA EMPLEADO
+->ALTA AREA
+->SALIR
+
+
+            <!-- ->controles sin orden
